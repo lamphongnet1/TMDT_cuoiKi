@@ -1,0 +1,53 @@
+.footer {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #315123;
+    color: #fff;
+    padding: 40px 60px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column-1,
+.footer-column-2,
+.footer-column-3 {
+    padding-right: 30px;
+}
+
+.footer-column-1 { flex-basis: 40%; }
+.footer-column-2,
+.footer-column-3 { flex-basis: 25%; }
+.footer h3 {
+    color: #8ee569;
+    margin-top: 0;
+}
+
+.footer .logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo-title img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.footer .payment-icons img,
+.footer .social-icons img {
+    width: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
