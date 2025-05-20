@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TMDT_cuoiKi/1.0.0": {
+        "runtime": {
+          "TMDT_cuoiKi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TMDT_cuoiKi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

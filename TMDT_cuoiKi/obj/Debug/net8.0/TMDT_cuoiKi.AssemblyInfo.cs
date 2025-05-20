@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TMDT_cuoiKi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00b2869bc15d876db5e545aa63d14c0b368f1a32")]
 [assembly: System.Reflection.AssemblyProductAttribute("TMDT_cuoiKi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TMDT_cuoiKi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

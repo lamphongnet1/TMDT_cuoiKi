@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\Style-footer.css",
+      "PackagePath": "staticwebassets\\css\\Style-footer.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\Style-header.css",
+      "PackagePath": "staticwebassets\\css\\Style-header.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_banner.css",
+      "PackagePath": "staticwebassets\\css\\style_banner.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
+      "PackagePath": "staticwebassets\\css\\style_homepage.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\Product1.png",
+      "PackagePath": "staticwebassets\\img\\Product1.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\Product2.png",
+      "PackagePath": "staticwebassets\\img\\Product2.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\Product3.png",
+      "PackagePath": "staticwebassets\\img\\Product3.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\american express.png",
+      "PackagePath": "staticwebassets\\img\\american express.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\banner.png",
+      "PackagePath": "staticwebassets\\img\\banner.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\banner_2.png",
+      "PackagePath": "staticwebassets\\img\\banner_2.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\banner_3.png",
+      "PackagePath": "staticwebassets\\img\\banner_3.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\cacloairuou_categories.png",
+      "PackagePath": "staticwebassets\\img\\cacloairuou_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\carbon_collapse_categories.png",
+      "PackagePath": "staticwebassets\\img\\carbon_collapse_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\carbon_review.png",
+      "PackagePath": "staticwebassets\\img\\carbon_review.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\content_banner.png",
+      "PackagePath": "staticwebassets\\img\\content_banner.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\giavi_categories.png",
+      "PackagePath": "staticwebassets\\img\\giavi_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\google.png",
+      "PackagePath": "staticwebassets\\img\\google.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\high_quality.png",
+      "PackagePath": "staticwebassets\\img\\high_quality.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\instagram.png",
+      "PackagePath": "staticwebassets\\img\\instagram.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\keomut_categories.png",
+      "PackagePath": "staticwebassets\\img\\keomut_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\key.png",
+      "PackagePath": "staticwebassets\\img\\key.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\khocacloai_categories.png",
+      "PackagePath": "staticwebassets\\img\\khocacloai_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\logo_2.png",
+      "PackagePath": "staticwebassets\\img\\logo_2.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\mastercard.png",
+      "PackagePath": "staticwebassets\\img\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\material_symbols_trophy.png",
+      "PackagePath": "staticwebassets\\img\\material_symbols_trophy.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\mid_banner_left.png",
+      "PackagePath": "staticwebassets\\img\\mid_banner_left.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\mid_banner_right.png",
+      "PackagePath": "staticwebassets\\img\\mid_banner_right.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\nemchalap_categories.png",
+      "PackagePath": "staticwebassets\\img\\nemchalap_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\paypal.png",
+      "PackagePath": "staticwebassets\\img\\paypal.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\person.png",
+      "PackagePath": "staticwebassets\\img\\person.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\person_2.png",
+      "PackagePath": "staticwebassets\\img\\person_2.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\random-shape-in-blue-png 2.png",
+      "PackagePath": "staticwebassets\\img\\random-shape-in-blue-png 2.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\raugaonam_categories.png",
+      "PackagePath": "staticwebassets\\img\\raugaonam_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\suckhoe_categories.png",
+      "PackagePath": "staticwebassets\\img\\suckhoe_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\thitcatuoi_categories.png",
+      "PackagePath": "staticwebassets\\img\\thitcatuoi_categories.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\transport.png",
+      "PackagePath": "staticwebassets\\img\\transport.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\twitter.png",
+      "PackagePath": "staticwebassets\\img\\twitter.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\visa.png",
+      "PackagePath": "staticwebassets\\img\\visa.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\warranty.png",
+      "PackagePath": "staticwebassets\\img\\warranty.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TMDT_cuoiKi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TMDT_cuoiKi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TMDT_cuoiKi.props",
+      "PackagePath": "build\\TMDT_cuoiKi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TMDT_cuoiKi.props",
+      "PackagePath": "buildMultiTargeting\\TMDT_cuoiKi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TMDT_cuoiKi.props",
+      "PackagePath": "buildTransitive\\TMDT_cuoiKi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

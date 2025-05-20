@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace VStudio\\TMDT_cuoiKi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T07:53:25.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2826931d-bb12-452c-b660-c21852fb5da2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

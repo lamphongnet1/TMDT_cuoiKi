@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Workspace VStudio\\TMDT_cuoiKi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T07:53:25.932Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -27,23 +41,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:0:0:{2826931d-bb12-452c-b660-c21852fb5da2}"
             }
           ]
         }

@@ -3,44 +3,132 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - TMDT_cuoiKi</title>
+    <title>Đặc Sản Hedaqua</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/TMDT_cuoiKi.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="~/css/Style-header.css" rel="stylesheet" />
+    <link href="~/css/Style-footer.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TMDT_cuoiKi</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+    <div class="header">
+        <!-- HEADER TOP -->
+        <div class="header-top">
+            <div class="container">
+                <div class="left">
+                    <div><i class="fas fa-phone"></i> +0702-500-230</div>
+                    <div><i class="fas fa-envelope"></i> thanh261220@gmail.com</div>
+                    <div><i class="fas fa-map-marker-alt"></i> 48 Cao Thắng, TP. Đà Nẵng</div>
+                </div>
+                <div class="right">
+                    <div><i class="fas fa-dollar-sign"></i> Số dư</div>
+                    <div><i class="fas fa-user"></i> Tài khoản</div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+
+        <!-- HEADER BOTTOM -->
+        <div class="header-bottom">
+            <div class="container">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="~/img/logo.png" alt="Logo">
+                </div>
+
+                <!-- Search -->
+                <div class="search-box">
+                    <input type="text" placeholder="Bạn cần tìm gì ?">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Hotline -->
+                <div class="hotline">
+                    <i class="fas fa-headset"></i> Hotline: 19001599
+                </div>
+
+                <div class="icons">
+                    <div>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="badge">5</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">7</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nabar-container">
+            <div class="navbar">
+                <div class="menu-left">
+                    <i class="fas fa-bars"></i>
+                    <span>Tất cả danh mục</span>
+                </div>
+                <div class="menu-right">
+                    <a href="#">Trang chủ</a>
+                    <a href="#">Giới thiệu</a>
+                    <a href="#">Sản phẩm</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <div class="footer">
         <div class="container">
-            &copy; 2025 - TMDT_cuoiKi - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <!-- Cột 1 -->
+            <div class="footer-column-1">
+                <div class="logo-title">
+                    <img src="~/img/logo_2.png" alt="Logo" />
+                </div>
+                <p>
+                    Chúng tôi hi vọng tất cả người tiêu dùng Việt Nam được sử dụng những đặc sản ngon nhất miền Trung,
+                    dịch vụ tận tâm và trải nghiệm mua sắm tiện lợi tại cửa hàng Đặc sản miền Trung.
+                </p>
+                <h3>HÌNH THỨC THANH TOÁN</h3>
+                <div class="payment-icons">
+                    <img src="~/img/paypal.png" alt="PayPal" />
+                    <img src="~/img/american express.png" alt="American Express" />
+                    <img src="~/img/visa.png" alt="Visa" />
+                    <img src="~/img/mastercard.png" alt="MasterCard" />
+                </div>
+            </div>
+
+            <!-- Cột 2 -->
+            <div class="footer-column-2">
+                <h3>CHÍNH SÁCH</h3>
+                <p>Chính sách thành viên</p>
+                <p>Chính sách thanh toán</p>
+                <p>Chính sách bảo hành</p>
+                <p>Chính sách trả góp</p>
+                <p>Bảo mật thông tin cá nhân</p>
+            </div>
+
+            <!-- Cột 3 -->
+            <div class="footer-column-3">
+                <h3>THÔNG TIN CHUNG</h3>
+                <p><strong>Địa chỉ:</strong> 48 Cao Thắng, Hải Châu, Đà Nẵng</p>
+                <p><strong>Điện thoại:</strong> 19001599</p>
+                <p><strong>Email:</strong> dacsanmientrung@gmail.com</p>
+                <h3>Kết Nối Sàn</h3>
+                <div class="social-icons">
+                    <img src="~/img/facebook.png" alt="Facebook" />
+                    <img src="~/img/instagram.png" alt="Instagram" />
+                    <img src="~/img/twitter.png" alt="Twitter" />
+                    <img src="~/img/google.png" alt="Google" />
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
