@@ -1,8 +1,564 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="~/css/style_homepage.css" />
+<link rel="stylesheet" href="~/css/style_banner.css" />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="content">
+    <div class="main-banner">
+        <div class="main-banner-container">
+            <!-- Thêm class cho ảnh content -->
+            <img class="main-banner-image" src="~/img/content_banner.png" alt="Banner Content" />
+
+            <div class="main-banner-content">
+                <h1>Đặc sản Huế, Đà Nẵng, Quảng Nam giữ trọn hồn quê</h1>
+                <p>
+                    Khám phá tinh hoa ẩm thực miền Trung – nơi hương vị truyền thống hòa quyện cùng bản sắc quê
+                    hương!
+                </p>
+                <a href="#" class="buy-button">Mua ngay</a>
+            </div>
+
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+
+            <div class="arrow left-arrow">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="arrow right-arrow">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="stats-container">
+        <div class="stat-item">
+            <img src="~/img/carbon_collapse_categories.png" alt="Đặc sản miền Trung" class="stat-icon">
+            <div class="stat-value">100+</div>
+            <div class="stat-desc">100+ Đặc sản trứ danh miền Trung</div>
+        </div>
+
+        <div class="stat-item">
+            <img src="~/img/carbon_review.png" alt="Đánh giá" class="stat-icon">
+            <div class="stat-value">5000+</div>
+            <div class="stat-desc">Đánh giá tích cực từ khách hàng</div>
+        </div>
+
+        <div class="stat-item">
+            <img src="~/img/person.png" alt="Hài lòng" class="stat-icon">
+            <div class="stat-value">90%</div>
+            <div class="stat-desc">Khách hàng hài lòng sau mua hàng</div>
+        </div>
+
+        <div class="stat-item">
+            <img src="~/img/material_symbols_trophy.png" alt="Kinh nghiệm" class="stat-icon">
+            <div class="stat-value">>5</div>
+            <div class="stat-desc">Năm kinh nghiệm – Dẫn đầu độ uy tín</div>
+        </div>
+    </div>
+    <div class="categories-container">
+        <div class="category-item">
+            <img src="~/img/keomut_categories.png" alt="Bánh, kẹo, mứt">
+            <div class="category-title">BÁNH, KẸO, MỨT</div>
+        </div>
+
+        <div class="category-item">
+            <img src="~/img/khocacloai_categories.png" alt="Khô các loại">
+            <div class="category-title">KHÔ CÁC LOẠI</div>
+        </div>
+
+        <div class="category-item">
+            <img src="~/img/cacloairuou_categories.png" alt="Các loại rượu">
+            <div class="category-title">CÁC LOẠI RƯỢU</div>
+        </div>
+
+        <div class="category-item">
+            <img src="~/img/nemchalap_categories.png" alt="Nem, chả, lạp">
+            <div class="category-title">NEM, CHẢ, LẠP</div>
+        </div>
+
+        <div class="category-item">
+            <img src="~/img/raugaonam_categories.png" alt="Rau củ quả nấm">
+            <div class="category-title">RAU CỦ QUẢ NẤM</div>
+        </div>
+
+        <div class="category-item">
+            <img src="~/img/giavi_categories.png" alt="Gia vị">
+            <div class="category-title">GIA VỊ</div>
+        </div>
+
+        <div class="category-item">
+            <img src="~/img/thitcatuoi_categories.png" alt="Thịt cá tươi">
+            <div class="category-title">THỊT CÁ TƯƠI</div>
+        </div>
+
+        <div class="category-item">
+            <img src="~/img/suckhoe_categories.png" alt="Sức khỏe">
+            <div class="category-title">SỨC KHỎE</div>
+        </div>
+    </div>
+    <div class="discount-container">
+        <div class="sales-banner">
+            <div class="banner-background"></div>
+            <div class="promo-text">
+                <h2>Giảm giá sốc</h2>
+                <p>Mua ngay!</p>
+                <button class="view-all-btn">
+                    Xem tất cả
+                    <span class="arrow-icon">›</span>
+                </button>
+            </div>
+
+            <div class="product-cards">
+                <div class="product-card">
+                    <div class="discount-badge">-50%</div>
+                    <div class="product-image">
+                        <img src="images/kho-nai.jpg" alt="Khô nai">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Khô nai</div>
+                        <div class="product-price">
+                            <span class="original-price">450.000đ</span>
+                            <span class="sale-price">250.000đ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="discount-badge">-30%</div>
+                    <div class="product-image">
+                        <img src="images/kho-ga-la-chanh.jpg" alt="Khô gà lá chanh">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Khô gà lá chanh</div>
+                        <div class="product-price">
+                            <span class="original-price">120.000đ</span>
+                            <span class="sale-price">80.000đ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="discount-badge">-20%</div>
+                    <div class="product-image">
+                        <img src="images/cha-ca-quy-nhon.jpg" alt="Chả cá Quy Nhơn">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Chả cá Quy Nhơn</div>
+                        <div class="product-price">
+                            <span class="original-price">200.000đ</span>
+                            <span class="sale-price">80.000đ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="discount-badge">-25%</div>
+                    <div class="product-image">
+                        <img src="images/muoi-kien-vang.jpg" alt="Muối kiến vàng">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Muối kiến vàng</div>
+                        <div class="product-price">
+                            <span class="original-price">70.000đ</span>
+                            <span class="sale-price">50.000đ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="discount-badge">-17%</div>
+                    <div class="product-image">
+                        <img src="images/toi-ly-son.jpg" alt="Tỏi Lý Sơn (1kg)">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Tỏi Lý Sơn (1kg)</div>
+                        <div class="product-price">
+                            <span class="original-price">120.000đ</span>
+                            <span class="sale-price">100.000đ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="discount-badge">-18%</div>
+                    <div class="product-image">
+                        <img src="images/ca-bong-rim-cay.jpg" alt="Cá bống rim cay">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Cá bống rim cay</div>
+                        <div class="product-price">
+                            <span class="original-price">120.000đ</span>
+                            <span class="sale-price">99.000đ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation-controls">
+                <button class="nav-button prev-button"></button>
+                <button class="nav-button next-button"></button>
+            </div>
+        </div>
+    </div>
+    <div class="newproduct-container">
+        <div class="section-header">
+            <h2 class="section-title">Sản phẩm mới</h2>
+            <a href="#" class="view-all">
+                Xem tất cả <span class="arrow-icon">›</span>
+            </a>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="product-grid_2">
+            <!-- Product 1 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product1.jpg" alt="Mắm tôm chua Dì Cẩn">
+                </div>
+                <h3 class="product-name_2">Mắm tôm chua Dì Cẩn</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">65.000đ</span>
+                    <span class="product-rating_2">★ 4.5</span>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product2.jpg" alt="Trà cung đình Huế 500gr">
+                    <div class="wishlist-icon_2">♡</div>
+                </div>
+                <h3 class="product-name_2">Trà cung đình Huế 500gr</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">70.000đ</span>
+                    <span class="product-rating_2">★ 4.8</span>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product3.jpg" alt="Tắc kè khô ngâm rượu">
+                </div>
+                <h3 class="product-name_2">Tắc kè khô ngâm rượu</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">90.000đ</span>
+                    <span class="product-rating_2">★ 4.7</span>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product4.jpg" alt="Bánh khô mè Bà Liễu">
+                </div>
+                <h3 class="product-name_2">Bánh khô mè Bà Liễu</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">200.000đ</span>
+                    <span class="product-rating_2">★ 3.9</span>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product5.jpg" alt="Chả bò Đà Nẵng">
+                </div>
+                <h3 class="product-name_2">Chả bò Đà Nẵng</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">700.000đ</span>
+                    <span class="product-rating_2">★ 4.7</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="midbanner-container">
+        <div class="banner-image-1">
+            <img src="~/img/mid_banner_left.png"
+                 alt="Vietnamese food collection showing grilled meats, chicken rice, and noodle dishes">
+        </div>
+        <div class="banner-image-2">
+            <img src="~/img/mid_banner_right.png"
+                 alt="Vietnamese food specialties with text 'Đặc Sản MIỀN TRUNG'">
+        </div>
+    </div>
+    <div class="best_seller-container">
+        <div class="section-header">
+            <h2 class="section-title">Bán chạy nhất</h2>
+            <a href="#" class="view-all">
+                Xem tất cả <span class="arrow-icon">›</span>
+            </a>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="product-grid_2">
+            <!-- Product 1 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product1.jpg" alt="Mắm tôm chua Dì Cẩn">
+                </div>
+                <h3 class="product-name_2">Mắm tôm chua Dì Cẩn</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">65.000đ</span>
+                    <span class="product-rating_2">★ 4.5</span>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product2.jpg" alt="Trà cung đình Huế 500gr">
+                    <div class="wishlist-icon_2">♡</div>
+                </div>
+                <h3 class="product-name_2">Trà cung đình Huế 500gr</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">70.000đ</span>
+                    <span class="product-rating_2">★ 4.8</span>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product3.jpg" alt="Tắc kè khô ngâm rượu">
+                </div>
+                <h3 class="product-name_2">Tắc kè khô ngâm rượu</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">90.000đ</span>
+                    <span class="product-rating_2">★ 4.7</span>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product4.jpg" alt="Bánh khô mè Bà Liễu">
+                </div>
+                <h3 class="product-name_2">Bánh khô mè Bà Liễu</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">200.000đ</span>
+                    <span class="product-rating_2">★ 3.9</span>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card_2">
+                <div class="product-image_2">
+                    <img src="product5.jpg" alt="Chả bò Đà Nẵng">
+                </div>
+                <h3 class="product-name_2">Chả bò Đà Nẵng</h3>
+                <div class="product-details_2">
+                    <span class="product-price_2">700.000đ</span>
+                    <span class="product-rating_2">★ 4.7</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="midbanner_2-container">
+        <div class="banner">
+            <div class="banner-content">
+                <div class="inner_banner">
+                    <h1>Hương vị miền Trung</h1>
+                    <p>
+                        Không chỉ là đặc sản, đó là câu chuyện của vùng đất, con người và văn hóa - nơi Huế, Đà Nẵng,
+                        Quảng Nam hòa quyện trong từng hương vị.
+                    </p>
+                    <button class="view-button">Xem ngay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HTML Code -->
+    <div class="news-container">
+        <div class="news-header">
+            <h2 class="section-title">Tin tức của chúng tôi</h2>
+            <a href="#" class="view-all">
+                <span>Xem tất cả</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.99 7.72L15.03 12.75L9.99 17.78" stroke="#0C0C0C" stroke-width="1.5"
+                          stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+        </div>
+        <div class="divider"></div>
+
+        <div class="news-content">
+            <div class="featured-news">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="https://placehold.co/392x204" alt="Đặc sản Đà Nẵng">
+                    </div>
+                    <div class="news-details">
+                        <div class="news-meta">
+                            <div class="date">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.96 1.04H6.04V5.12H13.96V1.04Z" fill="#717171" />
+                                    <path d="M15.83 18.96H4.17C2.97 18.96 2 17.99 2 16.79V4.58C2 3.63 2.77 2.86 3.72 2.86H5.62V5.54C5.62 5.95 5.96 6.29 6.37 6.29H13.64C14.05 6.29 14.39 5.95 14.39 5.54V2.86H16.29C17.23 2.86 18 3.63 18 4.58V16.79C18 17.99 17.03 18.96 15.83 18.96ZM6.25 10.42H6.24V10.43H6.25V10.42ZM9.16 10.42H9.16V10.43H9.17V10.42H9.16ZM12.08 10.42H12.07V10.43H12.08V10.42ZM6.25 13.34H6.24V13.35H6.25V13.34ZM9.16 13.34H9.16V13.35H9.17V13.34H9.16ZM12.08 13.33H12.07V13.34H12.08V13.33Z"
+                                          fill="#717171" />
+                                </svg>
+                                <span>8, 8, 2023</span>
+                            </div>
+                            <div class="read-time">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 3.12C5.88 3.12 2.5 6.5 2.5 10.62C2.5 14.74 5.88 18.12 10 18.12C14.12 18.12 17.5 14.74 17.5 10.62C17.5 6.5 14.12 3.12 10 3.12ZM13.13 13.54C12.94 13.73 12.65 13.73 12.46 13.54L9.8 10.88C9.72 10.8 9.67 10.69 9.67 10.58V6.87C9.67 6.62 9.88 6.41 10.13 6.41C10.38 6.41 10.59 6.62 10.59 6.87V10.34L13.13 12.88C13.32 13.07 13.32 13.36 13.13 13.54Z"
+                                          fill="#717171" />
+                                </svg>
+                                <span>3 phút đọc</span>
+                            </div>
+                        </div>
+                        <h3 class="news-title">Top 30+ đặc sản Đà Nẵng nên thưởng thức và mua về làm quà</h3>
+                        <p class="news-description">
+                            Món ăn đặc sản Đà Nẵng không thiếu, thậm chí có ngồi kể cả ngày
+                            cũng không hết được cả trăm thức quà ngon lành mang đậm văn hóa ẩm thực miền Trung
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-list">
+                <div class="news-item">
+                    <div class="item-image">
+                        <img src="https://placehold.co/240x230" alt="Hạt sen khô Huế">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-info">
+                            <h3 class="item-title highlight">
+                                Tác dụng của hạt sen khô Huế đối với sức khỏe con người
+                            </h3>
+                            <p class="item-description">
+                                Hạt sen là một vị thuốc Đông Y quen thuộc từ xưa đến nay, có
+                                tác dụng tốt cho sức khỏe. Hạt sen có tính bình, chứa nhiều vitamin, dưỡng chất bổ
+                                ích, được nhiều người dùng để chữa những bệnh thường gặp. Hạt sen khô có thể dùng
+                                chế biến nhiều món ăn tốt cho sức khỏe, phù hợp với cả người già và trẻ nhỏ.
+                            </p>
+                        </div>
+                        <div class="item-meta">
+                            <div class="date">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.96 1.04H6.04V5.12H13.96V1.04Z" fill="#717171" />
+                                    <path d="M15.83 18.96H4.17C2.97 18.96 2 17.99 2 16.79V4.58C2 3.63 2.77 2.86 3.72 2.86H5.62V5.54C5.62 5.95 5.96 6.29 6.37 6.29H13.64C14.05 6.29 14.39 5.95 14.39 5.54V2.86H16.29C17.23 2.86 18 3.63 18 4.58V16.79C18 17.99 17.03 18.96 15.83 18.96ZM6.25 10.42H6.24V10.43H6.25V10.42ZM9.16 10.42H9.16V10.43H9.17V10.42H9.16ZM12.08 10.42H12.07V10.43H12.08V10.42ZM6.25 13.34H6.24V13.35H6.25V13.34ZM9.16 13.34H9.16V13.35H9.17V13.34H9.16ZM12.08 13.33H12.07V13.34H12.08V13.33Z"
+                                          fill="#717171" />
+                                </svg>
+                                <span>3, 28, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="item-image">
+                        <img src="https://placehold.co/240x156" alt="Rượu xoa bóp Kim Vui">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-info">
+                            <h3 class="item-title">Những điều cần biết về rượu xoa bóp Kim Vui</h3>
+                            <p class="item-description">
+                                Rượu xoa bóp là một trong những phương pháp giúp điều trị
+                                các tình trạng đau nhức xương khớp hoặc chấn thương phần mềm rất hữu hiệu. Tuy
+                                nhiên, không phải ai cũng hiểu rõ công dụng và dùng đúng cách rượu xoa bóp.
+                            </p>
+                        </div>
+                        <div class="item-meta">
+                            <div class="date">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.96 1.04H6.04V5.12H13.96V1.04Z" fill="#717171" />
+                                    <path d="M15.83 18.96H4.17C2.97 18.96 2 17.99 2 16.79V4.58C2 3.63 2.77 2.86 3.72 2.86H5.62V5.54C5.62 5.95 5.96 6.29 6.37 6.29H13.64C14.05 6.29 14.39 5.95 14.39 5.54V2.86H16.29C17.23 2.86 18 3.63 18 4.58V16.79C18 17.99 17.03 18.96 15.83 18.96ZM6.25 10.42H6.24V10.43H6.25V10.42ZM9.16 10.42H9.16V10.43H9.17V10.42H9.16ZM12.08 10.42H12.07V10.43H12.08V10.42ZM6.25 13.34H6.24V13.35H6.25V13.34ZM9.16 13.34H9.16V13.35H9.17V13.34H9.16ZM12.08 13.33H12.07V13.34H12.08V13.33Z"
+                                          fill="#717171" />
+                                </svg>
+                                <span>8, 17, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="register-banner">
+        <div class="register-content">
+            <div class="inner_register">
+                <h2>Đăng ký để không bỏ lỡ</h2>
+                <p>
+                    Đăng ký nghe kể – hãy nhanh thử miền Trung qua từng món đặc sản. Đăng ký để nhận ưu đãi hôm nay!
+                </p>
+
+                <div class="register-form">
+                    <input type="email" placeholder="Nhập email của bạn" class="email-input">
+                    <button class="register-button">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="review_container">
+        <div class="features_grid">
+            <!-- Top row with horizontal layout -->
+            <div class="top_row">
+                <!-- Quality Feature -->
+                <div class="top_feature">
+                    <div class="feature_icon">
+                        <img src="~/img/high_quality.png" />
+                    </div>
+                    <div class="feature_content">
+                        <h3 class="feature_title">Chất lượng cao</h3>
+                        <p class="feature_desc">
+                            Trải nghiệm tinh hoa ẩm thực đỉnh cao với những sản phẩm được chọn
+                            lọc kỹ lưỡng.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Customer Service Feature -->
+                <div class="top_feature">
+                    <div class="feature_icon">
+                        <img src="~/img/person_2.png" />
+                    </div>
+                    <div class="feature_content">
+                        <h3 class="feature_title">Dịch vụ khách hàng</h3>
+                        <p class="feature_desc">Hỗ trợ khách hàng 24/7</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom row with vertical layout -->
+            <div class="bottom_row">
+                <!-- Shipping Feature -->
+                <div class="bottom_feature">
+                    <div class="feature_icon">
+                        <img src="~/img/transport.png" />
+
+                    </div>
+                    <h3 class="feature_title">Vận chuyển</h3>
+                    <p class="feature_desc">Miễn phí vận chuyển trên 500k</p>
+                </div>
+
+                <!-- Payment Feature -->
+                <div class="bottom_feature">
+                    <div class="feature_icon">
+                        <img src="~/img/key.png" />
+
+                    </div>
+                    <h3 class="feature_title">Thanh toán</h3>
+                    <p class="feature_desc">Thanh toán an toàn, bảo mật tuyệt đối – mua sắm không lo rủi ro.</p>
+                </div>
+
+                <!-- Warranty Feature -->
+                <div class="bottom_feature">
+                    <div class="feature_icon">
+                        <img src="~/img/warranty.png" />
+
+                    </div>
+                    <h3 class="feature_title">Bảo hành</h3>
+                    <p class="feature_desc">Mua sắm an tâm với chính sách đổi trả 100 ngày với bảo hành dài hạn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

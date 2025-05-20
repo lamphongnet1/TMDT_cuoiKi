@@ -162,7 +162,7 @@ body {
     position: absolute;
     top: -102px;
     left: 339px;
-    background-image: url('images/banner-bg.jpg');
+    background-image: url('../img/banner-bg.jpg');
     transform: rotate(101deg);
     transform-origin: top left;
     opacity: 0.15;
@@ -572,7 +572,7 @@ body {
 .banner {
     width: 100%;
     height: 300px;
-    background-image: url('/Assets/img/banner_2.png');
+    background-image: url('../img/banner_2.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -886,7 +886,7 @@ body {
 .register-banner {
     width: 100%;
     height: 400px;
-    background-image: url('/Assets/img/banner_3.png');
+    background-image: url('../img/banner_3.png');
     background-size: cover;
     background-position: center;
     position: relative;
