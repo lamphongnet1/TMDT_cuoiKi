@@ -3,6 +3,7 @@
 }
 <link rel="stylesheet" href="~/css/style_homepage.css" />
 <link rel="stylesheet" href="~/css/style_banner.css" />
+    @using TMDT_cuoiKi.Data  <!-- thay bằng namespace chứa ShopHueDaQuaContext -->
 
 <div class="content">
     <div class="main-banner">
@@ -112,89 +113,42 @@
             </div>
 
             <div class="product-cards">
-                <div class="product-card">
-                    <div class="discount-badge">-50%</div>
-                    <div class="product-image">
-                        <img src="images/kho-nai.jpg" alt="Khô nai">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-name">Khô nai</div>
-                        <div class="product-price">
-                            <span class="original-price">450.000đ</span>
-                            <span class="sale-price">250.000đ</span>
-                        </div>
-                    </div>
-                </div>
+               
 
-                <div class="product-card">
-                    <div class="discount-badge">-30%</div>
-                    <div class="product-image">
-                        <img src="images/kho-ga-la-chanh.jpg" alt="Khô gà lá chanh">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-name">Khô gà lá chanh</div>
-                        <div class="product-price">
-                            <span class="original-price">120.000đ</span>
-                            <span class="sale-price">80.000đ</span>
-                        </div>
-                    </div>
-                </div>
+                @{
+                    var db = new ShopHueDaQuaContext();
 
-                <div class="product-card">
-                    <div class="discount-badge">-20%</div>
-                    <div class="product-image">
-                        <img src="images/cha-ca-quy-nhon.jpg" alt="Chả cá Quy Nhơn">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-name">Chả cá Quy Nhơn</div>
-                        <div class="product-price">
-                            <span class="original-price">200.000đ</span>
-                            <span class="sale-price">80.000đ</span>
-                        </div>
-                    </div>
-                </div>
+                    // Lấy 5 sản phẩm rẻ nhất kèm theo hình ảnh đầu tiên
+                    var danhSachSp = db.SanPhams
+                    .OrderBy(sp => sp.GiaBan) // Sắp xếp từ rẻ đến đắt
+                    .Take(5) // Chỉ lấy 5 sản phẩm đầu tiên
+                    .Select(sp => new
+                    {
+                        SanPham = sp,
+                        HinhAnh = db.HinhAnhSanPhams
+                    .Where(h => h.IdsanPham == sp.IdsanPham)
+                    .OrderBy(h => h.IdhinhAnh)
+                    .Select(h => h.HinhAnh)
+                    .FirstOrDefault()
+                    }).ToList();
+                }
 
-                <div class="product-card">
-                    <div class="discount-badge">-25%</div>
-                    <div class="product-image">
-                        <img src="images/muoi-kien-vang.jpg" alt="Muối kiến vàng">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-name">Muối kiến vàng</div>
-                        <div class="product-price">
-                            <span class="original-price">70.000đ</span>
-                            <span class="sale-price">50.000đ</span>
+                @foreach (var item in danhSachSp)
+                {
+                    <div class="product-card">
+                        <div class="discount-badge">-50%</div>
+                        <div class="product-image">
+                            <img src="@(item.HinhAnh ?? "images/default-product.jpg")" alt="@item.SanPham.TenSanPham">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">@item.SanPham.TenSanPham</div>
+                            <div class="product-price">
+                                <span class="original-price">@String.Format("{0:N0}đ", item.SanPham.GiaBan * 2)</span>
+                                <span class="sale-price">@String.Format("{0:N0}đ", item.SanPham.GiaBan)</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="discount-badge">-17%</div>
-                    <div class="product-image">
-                        <img src="images/toi-ly-son.jpg" alt="Tỏi Lý Sơn (1kg)">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-name">Tỏi Lý Sơn (1kg)</div>
-                        <div class="product-price">
-                            <span class="original-price">120.000đ</span>
-                            <span class="sale-price">100.000đ</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="discount-badge">-18%</div>
-                    <div class="product-image">
-                        <img src="images/ca-bong-rim-cay.jpg" alt="Cá bống rim cay">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-name">Cá bống rim cay</div>
-                        <div class="product-price">
-                            <span class="original-price">120.000đ</span>
-                            <span class="sale-price">99.000đ</span>
-                        </div>
-                    </div>
-                </div>
+                }
             </div>
 
             <div class="navigation-controls">
@@ -214,66 +168,37 @@
         <hr class="section-divider">
 
         <div class="product-grid_2">
-            <!-- Product 1 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product1.jpg" alt="Mắm tôm chua Dì Cẩn">
-                </div>
-                <h3 class="product-name_2">Mắm tôm chua Dì Cẩn</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">65.000đ</span>
-                    <span class="product-rating_2">★ 4.5</span>
-                </div>
-            </div>
+            @{
 
-            <!-- Product 2 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product2.jpg" alt="Trà cung đình Huế 500gr">
-                    <div class="wishlist-icon_2">♡</div>
-                </div>
-                <h3 class="product-name_2">Trà cung đình Huế 500gr</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">70.000đ</span>
-                    <span class="product-rating_2">★ 4.8</span>
-                </div>
-            </div>
+                // Lấy 5 sản phẩm mới nhất (IdsanPham lớn nhất) kèm theo hình ảnh đầu tiên
+                var sanPhamMoi = db.SanPhams
+                .OrderByDescending(sp => sp.IdsanPham)
+                .Take(5)
+                .Select(sp => new
+                {
+                    SanPham = sp,
+                    HinhAnh = db.HinhAnhSanPhams
+                .Where(h => h.IdsanPham == sp.IdsanPham)
+                .OrderBy(h => h.IdhinhAnh)
+                .Select(h => h.HinhAnh)
+                .FirstOrDefault()
+                }).ToList();
+            }
 
-            <!-- Product 3 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product3.jpg" alt="Tắc kè khô ngâm rượu">
+            @foreach (var item in sanPhamMoi)
+            {
+                <div class="product-card_2">
+                    <div class="product-image_2">
+                        <img src="@(item.HinhAnh ?? "images/default-product.jpg")" alt="@item.SanPham.TenSanPham">
+                    </div>
+                    <h3 class="product-name_2">@item.SanPham.TenSanPham</h3>
+                    <div class="product-details_2">
+                        <span class="product-price_2">@String.Format("{0:N0}đ", item.SanPham.GiaBan)</span>
+                        <span class="product-rating_2">★ 4.5</span> <!-- Có thể thay bằng đánh giá thực nếu có -->
+                    </div>
                 </div>
-                <h3 class="product-name_2">Tắc kè khô ngâm rượu</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">90.000đ</span>
-                    <span class="product-rating_2">★ 4.7</span>
-                </div>
-            </div>
+            }
 
-            <!-- Product 4 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product4.jpg" alt="Bánh khô mè Bà Liễu">
-                </div>
-                <h3 class="product-name_2">Bánh khô mè Bà Liễu</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">200.000đ</span>
-                    <span class="product-rating_2">★ 3.9</span>
-                </div>
-            </div>
-
-            <!-- Product 5 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product5.jpg" alt="Chả bò Đà Nẵng">
-                </div>
-                <h3 class="product-name_2">Chả bò Đà Nẵng</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">700.000đ</span>
-                    <span class="product-rating_2">★ 4.7</span>
-                </div>
-            </div>
         </div>
     </div>
     <div class="midbanner-container">
@@ -297,66 +222,36 @@
         <hr class="section-divider">
 
         <div class="product-grid_2">
-            <!-- Product 1 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product1.jpg" alt="Mắm tôm chua Dì Cẩn">
-                </div>
-                <h3 class="product-name_2">Mắm tôm chua Dì Cẩn</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">65.000đ</span>
-                    <span class="product-rating_2">★ 4.5</span>
-                </div>
-            </div>
+            @{
 
-            <!-- Product 2 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product2.jpg" alt="Trà cung đình Huế 500gr">
-                    <div class="wishlist-icon_2">♡</div>
-                </div>
-                <h3 class="product-name_2">Trà cung đình Huế 500gr</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">70.000đ</span>
-                    <span class="product-rating_2">★ 4.8</span>
-                </div>
-            </div>
+                // Giả định sản phẩm mới là bán chạy nhất – lấy 5 sản phẩm mới nhất
+                var banChayNhat = db.SanPhams
+                .Take(5)
+                .Select(sp => new
+                {
+                    SanPham = sp,
+                    HinhAnh = db.HinhAnhSanPhams
+                .Where(h => h.IdsanPham == sp.IdsanPham)
+                .OrderBy(h => h.IdhinhAnh)
+                .Select(h => h.HinhAnh)
+                .FirstOrDefault()
+                }).ToList();
+            }
 
-            <!-- Product 3 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product3.jpg" alt="Tắc kè khô ngâm rượu">
+            @foreach (var item in banChayNhat)
+            {
+                <div class="product-card_2">
+                    <div class="product-image_2">
+                        <img src="@(item.HinhAnh ?? "images/default-product.jpg")" alt="@item.SanPham.TenSanPham">
+                    </div>
+                    <h3 class="product-name_2">@item.SanPham.TenSanPham</h3>
+                    <div class="product-details_2">
+                        <span class="product-price_2">@String.Format("{0:N0}đ", item.SanPham.GiaBan)</span>
+                        <span class="product-rating_2">★ 4.5</span> <!-- Giữ mặc định sao -->
+                    </div>
                 </div>
-                <h3 class="product-name_2">Tắc kè khô ngâm rượu</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">90.000đ</span>
-                    <span class="product-rating_2">★ 4.7</span>
-                </div>
-            </div>
+            }
 
-            <!-- Product 4 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product4.jpg" alt="Bánh khô mè Bà Liễu">
-                </div>
-                <h3 class="product-name_2">Bánh khô mè Bà Liễu</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">200.000đ</span>
-                    <span class="product-rating_2">★ 3.9</span>
-                </div>
-            </div>
-
-            <!-- Product 5 -->
-            <div class="product-card_2">
-                <div class="product-image_2">
-                    <img src="product5.jpg" alt="Chả bò Đà Nẵng">
-                </div>
-                <h3 class="product-name_2">Chả bò Đà Nẵng</h3>
-                <div class="product-details_2">
-                    <span class="product-price_2">700.000đ</span>
-                    <span class="product-rating_2">★ 4.7</span>
-                </div>
-            </div>
         </div>
     </div>
     <div class="midbanner_2-container">

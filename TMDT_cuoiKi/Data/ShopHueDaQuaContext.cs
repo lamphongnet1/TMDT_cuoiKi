@@ -39,13 +39,13 @@ public partial class ShopHueDaQuaContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=ShopHueDaQua;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=thanh\\THANH;Initial Catalog=ShopHueDaQua;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Blog>(entity =>
         {
-            entity.HasKey(e => e.Idblog).HasName("PK__Blog__3CFB8BBE53160C8B");
+            entity.HasKey(e => e.Idblog).HasName("PK__Blog__3CFB8BBE6B3ECF76");
 
             entity.ToTable("Blog");
 
@@ -59,7 +59,7 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<ChiTietDonHang>(entity =>
         {
-            entity.HasKey(e => e.IdchiTietDonHang).HasName("PK__ChiTietD__EB5BBDC0612E1420");
+            entity.HasKey(e => e.IdchiTietDonHang).HasName("PK__ChiTietD__EB5BBDC0E1018398");
 
             entity.ToTable("ChiTietDonHang");
 
@@ -82,7 +82,7 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<ChiTietGioHang>(entity =>
         {
-            entity.HasKey(e => e.IdchiTietGioHang).HasName("PK__ChiTietG__5AC4B7C5E3942829");
+            entity.HasKey(e => e.IdchiTietGioHang).HasName("PK__ChiTietG__5AC4B7C5FEAA13C9");
 
             entity.ToTable("ChiTietGioHang");
 
@@ -104,7 +104,7 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<DanhGium>(entity =>
         {
-            entity.HasKey(e => e.IddanhGia).HasName("PK__DanhGia__C216E48DE2BDB7E1");
+            entity.HasKey(e => e.IddanhGia).HasName("PK__DanhGia__C216E48DDB5F9791");
 
             entity.Property(e => e.IddanhGia).HasColumnName("IDDanhGia");
             entity.Property(e => e.IdchiTietDonHang).HasColumnName("IDChiTietDonHang");
@@ -122,12 +122,16 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<DanhMuc>(entity =>
         {
-            entity.HasKey(e => e.IddanhMuc).HasName("PK__DanhMuc__DF6C0BD22AE8B267");
+            entity.HasKey(e => e.IddanhMuc).HasName("PK__DanhMuc__DF6C0BD280B7F579");
 
             entity.ToTable("DanhMuc");
 
             entity.Property(e => e.IddanhMuc).HasColumnName("IDDanhMuc");
+            entity.Property(e => e.HinhAnh).HasColumnName("hinhAnh");
             entity.Property(e => e.MoTa).HasColumnName("moTa");
+            entity.Property(e => e.TenDacSan)
+                .HasMaxLength(50)
+                .HasColumnName("tenDacSan");
             entity.Property(e => e.TenDanhMuc)
                 .HasMaxLength(200)
                 .HasColumnName("tenDanhMuc");
@@ -145,7 +149,7 @@ public partial class ShopHueDaQuaContext : DbContext
                         .HasConstraintName("FK__Blog_Danh__IDDan__46E78A0C"),
                     j =>
                     {
-                        j.HasKey("IddanhMuc", "Idblog").HasName("PK__Blog_Dan__2CA3B36930495D81");
+                        j.HasKey("IddanhMuc", "Idblog").HasName("PK__Blog_Dan__2CA3B3696613894F");
                         j.ToTable("Blog_DanhMuc");
                         j.IndexerProperty<int>("IddanhMuc").HasColumnName("IDDanhMuc");
                         j.IndexerProperty<int>("Idblog").HasColumnName("IDBlog");
@@ -154,11 +158,14 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<DonHang>(entity =>
         {
-            entity.HasKey(e => e.IddonHang).HasName("PK__DonHang__9CA232F7CB8C832C");
+            entity.HasKey(e => e.IddonHang).HasName("PK__DonHang__9CA232F78B53E320");
 
             entity.ToTable("DonHang");
 
             entity.Property(e => e.IddonHang).HasColumnName("IDDonHang");
+            entity.Property(e => e.DiaChi)
+                .HasMaxLength(255)
+                .HasColumnName("diaChi");
             entity.Property(e => e.IdkhachHang).HasColumnName("IDKhachHang");
             entity.Property(e => e.IdthanhToan).HasColumnName("IDThanhToan");
             entity.Property(e => e.NgayLap).HasColumnName("ngayLap");
@@ -178,7 +185,7 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<GioHang>(entity =>
         {
-            entity.HasKey(e => e.IdgioHang).HasName("PK__GioHang__0B2CDDAEFB407E6E");
+            entity.HasKey(e => e.IdgioHang).HasName("PK__GioHang__0B2CDDAE3A8D7F48");
 
             entity.ToTable("GioHang");
 
@@ -192,7 +199,7 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<HinhAnhSanPham>(entity =>
         {
-            entity.HasKey(e => e.IdhinhAnh).HasName("PK__HinhAnhS__2B573EE8A47F8769");
+            entity.HasKey(e => e.IdhinhAnh).HasName("PK__HinhAnhS__2B573EE853513F02");
 
             entity.ToTable("HinhAnhSanPham");
 
@@ -212,7 +219,7 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<KhachHang>(entity =>
         {
-            entity.HasKey(e => e.IdkhachHang).HasName("PK__KhachHan__5A7167B5A3A5FE92");
+            entity.HasKey(e => e.IdkhachHang).HasName("PK__KhachHan__5A7167B537BFF2B4");
 
             entity.ToTable("KhachHang");
 
@@ -246,7 +253,7 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<SanPham>(entity =>
         {
-            entity.HasKey(e => e.IdsanPham).HasName("PK__SanPham__9D45E58A646795C0");
+            entity.HasKey(e => e.IdsanPham).HasName("PK__SanPham__9D45E58A5325BD71");
 
             entity.ToTable("SanPham");
 
@@ -267,7 +274,7 @@ public partial class ShopHueDaQuaContext : DbContext
 
         modelBuilder.Entity<ThanhToan>(entity =>
         {
-            entity.HasKey(e => e.IdthanhToan).HasName("PK__ThanhToa__DC57C3A11BABD3A4");
+            entity.HasKey(e => e.IdthanhToan).HasName("PK__ThanhToa__DC57C3A128B46909");
 
             entity.ToTable("ThanhToan");
 

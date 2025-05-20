@@ -452,6 +452,11 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     margin-bottom: 16px;
     position: relative;
+    /* Thêm hiệu ứng đổ bóng */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* đậm hơn */
+    border-radius: 8px; /* tuỳ chọn nếu muốn bo góc */
+    background-color: #fff; /* giúp đổ bóng nổi bật hơn */
+    cursor: pointer
 }
 
 .product-image_2 {
@@ -462,13 +467,18 @@ body {
     align-items: center;
     border-bottom: 1px solid #f0f0f0;
     padding: 10px;
+    
 }
 
     .product-image_2 img {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
+        max-width: 185px;
+        height: 150px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
     }
+        .product-image_2 img:hover {
+            transform: scale(1.05); /* Hiệu ứng zoom nhẹ khi hover (nếu muốn) */
+        }
 
 .wishlist-icon_2 {
     position: absolute;

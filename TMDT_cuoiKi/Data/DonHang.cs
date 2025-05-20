@@ -17,6 +17,8 @@ public partial class DonHang
 
     public int? IdthanhToan { get; set; }
 
+    public string? DiaChi { get; set; }
+
     public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; } = new List<ChiTietDonHang>();
 
     public virtual KhachHang? IdkhachHangNavigation { get; set; }

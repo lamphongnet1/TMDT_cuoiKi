@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gvpj0u7gvr</Fingerprint>
-      <Integrity>vLEV06SRNWI5lA4SXjINpNNK7k+VjfoWX00pAhcoCek=</Integrity>
+      <Fingerprint>3zy3xlr0kz</Fingerprint>
+      <Integrity>MUd5mYu6QP3wXwNotR3tPv8Ts8VkruVVDEqMp4vPqEo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dropdown_menu.css'))</OriginalItemSpec>
