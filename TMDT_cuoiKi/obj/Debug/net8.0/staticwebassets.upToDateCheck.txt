@@ -1,3 +1,4 @@
+wwwroot\css\dropdown_menu.css
 wwwroot\css\style_banner.css
 wwwroot\css\style_homepage.css
 wwwroot\css\Style-footer.css
@@ -40,6 +41,7 @@ wwwroot\img\transport.png
 wwwroot\img\twitter.png
 wwwroot\img\visa.png
 wwwroot\img\warranty.png
+wwwroot\js\dropdown_danhmuc.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

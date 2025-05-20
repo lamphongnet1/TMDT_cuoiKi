@@ -132,7 +132,6 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 150px;
-        height: 60px;
     }
 
     .header .menu-left {
@@ -142,6 +141,7 @@
         font-weight: bold;
         font-size: 14px;
         cursor: pointer;
+        height: 60px;
     }
 
         .header .menu-left i {
