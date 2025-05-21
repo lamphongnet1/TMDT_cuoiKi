@@ -1,8 +1,8 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model IEnumerable<TMDT_cuoiKi.Data.ChiTietGioHang>
 <link rel="stylesheet" href="~/css/style_homepage.css" />
 <link rel="stylesheet" href="~/style-phong/Style-gioHang.css" />
 
@@ -34,180 +34,158 @@
         <!-- Cart Items -->
         <div class="order-details">
             <div class="cart-items">
-                <div class="cart-item">
-                    <img src="https://via.placeholder.com/120x85" alt="Rượu Nhật Dạ Đế Vương" class="cart-item-image">
-                    <div class="cart-item-details">
-                        <div class="cart-item-title">RƯỢU NHẬT DẠ ĐẾ VƯƠNG (VÀNG)</div>
-                        <div class="cart-item-meta">
-                            <i>📦</i> Vận chuyển nhanh
+                @foreach (var item in Model)
+                {
+                    var product = item.IdsanPhamNavigation;
+                    var firstImage = "." + (product.HinhAnhSanPhams.FirstOrDefault()?.HinhAnh ?? "placeholder.jpg");
+                    if (product != null)
+                    {
+                        <div class="cart-item">
+                            <img src="@firstImage" alt="@product.TenSanPham" class="cart-item-image">
+                            <div class="cart-item-details">
+                                <div class="cart-item-title">@product.TenSanPham</div>
+                                <div class="cart-item-meta">
+                                    <i>📦</i> Miễn phí vận chuyển
+                                </div>
+                                <div class="cart-item-meta">
+                                    <i>✓</i> Đảm bảo chất lượng
+                                </div>
+                                <div>
+                                    <span class="cart-item-price-original text-muted text-decoration-line-through">
+                                        @String.Format("{0:N0}đ", product.GiaBan * item.SoLuongDat * 3 / 2)
+                                    </span>
+                                    <span class="cart-item-price-current text-danger fw-bold">0đ</span>
+                                </div>
+                            </div>
+                            <div class="cart-item-actions">
+                                <div class="quantity-control">
+                                    <button class="quantity-btn minus">-</button>
+                                    <input type="text" class="quantity-input" value="@item.SoLuongDat" readonly>
+                                    <button class="quantity-btn plus">+</button>
+                                </div>
+                                <button class="remove-item">🗑️</button>
+                            </div>
+                            <input type="hidden" class="unit-price" value="@product.GiaBan" />
                         </div>
-                        <div class="cart-item-meta">
-                            <i>✓</i> Đảm bảo chất lượng
-                        </div>
-                        <div>
-                            <span class="cart-item-price-original">32.000.000đ</span>
-                            <span class="cart-item-price-current">11.017.685đ</span>
-                        </div>
-                    </div>
-                    <div class="cart-item-actions">
-                        <div class="quantity-control">
-                            <button class="quantity-btn">-</button>
-                            <input type="text" class="quantity-input" value="1" readonly>
-                            <button class="quantity-btn">+</button>
-                        </div>
-                        <button class="remove-item">🗑️</button>
-                    </div>
-                </div>
-
-                <div class="cart-item">
-                    <img src="https://via.placeholder.com/120x85" alt="Bánh gừng Nguyên Triều" class="cart-item-image">
-                    <div class="cart-item-details">
-                        <div class="cart-item-title">Bánh gừng Nguyên Triều - Hộp ăn dưỡng</div>
-                        <div class="cart-item-meta">
-                            <i>📦</i> Giao gói tin cậy
-                        </div>
-                        <div class="cart-item-meta">
-                            <i>✓</i> Chất lượng
-                        </div>
-                        <div>
-                            <span class="cart-item-price-original">3.420.000đ</span>
-                            <span class="cart-item-price-current">1.670.000đ</span>
-                        </div>
-                    </div>
-                    <div class="cart-item-actions">
-                        <div class="quantity-control">
-                            <button class="quantity-btn">-</button>
-                            <input type="text" class="quantity-input" value="1" readonly>
-                            <button class="quantity-btn">+</button>
-                        </div>
-                        <button class="remove-item">🗑️</button>
-                    </div>
-                </div>
-
-                <div class="cart-item">
-                    <img src="https://via.placeholder.com/120x85" alt="Mè xửng Thanh Hưng" class="cart-item-image">
-                    <div class="cart-item-details">
-                        <div class="cart-item-title">Mè xửng Thanh Hưng 225gr</div>
-                        <div class="cart-item-meta">
-                            <i>📦</i> Giao gói tin cậy
-                        </div>
-                        <div class="cart-item-meta">
-                            <i>✓</i> Chất lượng
-                        </div>
-                        <div class="cart-item-meta">
-                            <i>✓</i> Đảm bảo chất lượng
-                        </div>
-                        <div>
-                            <span class="cart-item-price-current">585.000đ</span>
-                        </div>
-                    </div>
-                    <div class="cart-item-actions">
-                        <div class="quantity-control">
-                            <button class="quantity-btn">-</button>
-                            <input type="text" class="quantity-input" value="1" readonly>
-                            <button class="quantity-btn">+</button>
-                        </div>
-                        <button class="remove-item">🗑️</button>
-                    </div>
-                </div>
+                    }
+                }
             </div>
         </div>
 
         <!-- Order Summary -->
         <div class="order-summary">
             <h3 class="summary-title">Chi tiết thanh toán</h3>
+
             <div class="summary-row">
                 <span>Tạm tính</span>
-                <span>13.272.685đ</span>
+                <span id="subtotal" class="text-danger fw-bold">0đ</span>
             </div>
+
             <div class="summary-row">
-                <span>Giảm giá</span>
-                <span>-3.000.000đ</span>
+                <span>Số lượng mặt hàng</span>
+                <span id="item-count">0</span>
             </div>
+
             <div class="summary-row">
                 <span>Phí vận chuyển</span>
                 <span>0đ</span>
             </div>
+
             <div class="summary-row total">
                 <span>Tổng cộng</span>
-                <span>10.272.685đ</span>
+                <span id="total" class="text-danger fw-bold">0đ</span>
             </div>
+
             <button class="checkout-btn">Tiến hành thanh toán</button>
         </div>
-    </div>
+        <!-- Related Products -->
 
-    <!-- Related Products -->
+    </div>
+</div>
+<div class="container">
     <div class="related-products">
         <h3 class="section-title">Khách hàng cũng quan tâm</h3>
         <div class="products-grid">
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250x180" alt="Trà Minh Mạng" class="product-image">
-                <div class="product-info">
-                    <div class="product-title">Trà Minh Mạng 360g (12 túi x 30g)</div>
-                    <div class="product-price">25.450.000đ</div>
-                    <div class="product-rating">
-                        <div class="stars">⭐ 4.5</div>
+            @foreach (var item in Model)
+            {
+                var product = item.IdsanPhamNavigation;
+                if (product != null)
+                {
+                    <div class="product-card">
+                        <img src="@product.IdsanPham" alt="@product.TenSanPham" class="product-image">
+                        <div class="product-info">
+                            <div class="product-title">@product.TenSanPham</div>
+                            <div class="product-price">@String.Format("{0:N0}đ", product.GiaBan)</div>
+                            <div class="product-rating">
+                                <div class="stars">⭐ @product.SoLuongTon</div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="add-to-cart">
+                                    <i>🛒</i> Thêm vào giỏ
+                                </button>
+                                <button class="wishlist-btn">❤️</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-actions">
-                        <button class="add-to-cart">
-                            <i>🛒</i> Thêm vào giỏ
-                        </button>
-                        <button class="wishlist-btn">❤️</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250x180" alt="Trà Quý Phi" class="product-image">
-                <div class="product-info">
-                    <div class="product-title">Trà Quý Phi (12 gói)</div>
-                    <div class="product-price">18.990.000đ</div>
-                    <div class="product-rating">
-                        <div class="stars">⭐ 4.5</div>
-                    </div>
-                    <div class="product-actions">
-                        <button class="add-to-cart">
-                            <i>🛒</i> Thêm vào giỏ
-                        </button>
-                        <button class="wishlist-btn">❤️</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250x180" alt="Trà cung đình Đức Phượng G10" class="product-image">
-                <div class="product-info">
-                    <div class="product-title">Trà cung đình Đức Phượng G10 (20 gói x 30g)</div>
-                    <div class="product-price">21.990.000đ</div>
-                    <div class="product-rating">
-                        <div class="stars">⭐ 4.5</div>
-                    </div>
-                    <div class="product-actions">
-                        <button class="add-to-cart">
-                            <i>🛒</i> Thêm vào giỏ
-                        </button>
-                        <button class="wishlist-btn">❤️</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250x180" alt="Trà cung đình Đức Phượng (hộp sứu chịu)" class="product-image">
-                <div class="product-info">
-                    <div class="product-title">Trà cung đình Đức Phượng (hộp sứu chịu)</div>
-                    <div class="product-price">18.550.00đ</div>
-                    <div class="product-rating">
-                        <div class="stars">⭐ 4.5</div>
-                    </div>
-                    <div class="product-actions">
-                        <button class="add-to-cart">
-                            <i>🛒</i> Thêm vào giỏ
-                        </button>
-                        <button class="wishlist-btn">❤️</button>
-                    </div>
-                </div>
-            </div>
+                }
+            }
         </div>
     </div>
 </div>
+<script>
+    function updateCartSummary() {
+        let total = 0;
+        let count = 0;
+
+        document.querySelectorAll('.cart-item').forEach(item => {
+            const qty = parseInt(item.querySelector('.quantity-input').value);
+            const unitPrice = parseInt(item.querySelector('.unit-price').value);
+            total += qty * unitPrice;
+            count++;
+        });
+
+        document.getElementById('subtotal').textContent = total.toLocaleString('vi-VN') + 'đ';
+        document.getElementById('total').textContent = total.toLocaleString('vi-VN') + 'đ';
+        document.getElementById('item-count').textContent = count;
+    }
+
+    document.querySelectorAll('.cart-item').forEach(item => {
+        const minusBtn = item.querySelector('.minus');
+        const plusBtn = item.querySelector('.plus');
+        const quantityInput = item.querySelector('.quantity-input');
+        const priceDisplay = item.querySelector('.cart-item-price-current');
+        const originalDisplay = item.querySelector('.cart-item-price-original');
+        const unitPrice = parseInt(item.querySelector('.unit-price').value);
+
+        function updatePrices() {
+            const qty = parseInt(quantityInput.value);
+            const currentTotal = unitPrice * qty;
+            const originalTotal = Math.floor(currentTotal * 1.5);
+            priceDisplay.textContent = currentTotal.toLocaleString('vi-VN') + 'đ';
+            originalDisplay.textContent = originalTotal.toLocaleString('vi-VN') + 'đ';
+            updateCartSummary();
+        }
+
+        minusBtn.addEventListener('click', () => {
+            let qty = parseInt(quantityInput.value);
+            if (qty > 1) {
+                qty -= 1;
+                quantityInput.value = qty;
+                updatePrices();
+            }
+        });
+
+        plusBtn.addEventListener('click', () => {
+            let qty = parseInt(quantityInput.value);
+            qty += 1;
+            quantityInput.value = qty;
+            updatePrices();
+        });
+
+        updatePrices();
+    });
+
+    updateCartSummary();
+</script>
+
 
