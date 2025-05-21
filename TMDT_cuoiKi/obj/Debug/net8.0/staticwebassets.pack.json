@@ -161,6 +161,18 @@
       "PackagePath": "staticwebassets\\img\\thitcatuoi_categories.png"
     },
     {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\tintuc_1.jpg",
+      "PackagePath": "staticwebassets\\img\\tintuc_1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\tintuc_2.jpg",
+      "PackagePath": "staticwebassets\\img\\tintuc_2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\tintuc_3.jpg",
+      "PackagePath": "staticwebassets\\img\\tintuc_3.jpg"
+    },
+    {
       "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\transport.png",
       "PackagePath": "staticwebassets\\img\\transport.png"
     },

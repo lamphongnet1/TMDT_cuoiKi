@@ -180,17 +180,6 @@ body {
         line-height: 28px;
     }
 
-.view-all-btn {
-    margin-top: 80px;  
-    background: transparent;
-    border: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-    cursor: pointer;
-    padding: 4px 8px;
-    border-radius: 8px;
-}
 
 .arrow-icon {
     display: inline-block;
@@ -410,13 +399,6 @@ body {
     color: #0C0C0C;
 }
 
-.view-all {
-    color: #0C0C0C;
-    text-decoration: none;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-}
 
 .arrow-icon {
     margin-left: 4px;
@@ -746,24 +728,65 @@ body {
 }
 
 .view-all {
-    display: flex;
+    display: inline-flex;
     align-items: center;
+    gap: 6px;
     text-decoration: none;
     color: #0C0C0C;
     font-size: 16px;
-    font-weight: 400;
-    padding: 4px 8px;
+    font-weight: 500;
+    padding: 6px 12px;
     border-radius: 8px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
     .view-all:hover {
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: rgba(0, 128, 0, 0.1); /* xanh lá nhạt */
+        color: #008000; /* xanh lá đậm */
     }
 
-    .view-all span {
-        margin-right: 4px;
+
+    .view-all i {
+        font-size: 11px; /* hoặc 16px nếu muốn lớn hơn */
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
     }
+
+    .view-all:hover i {
+        transform: translateX(4px);
+    }
+.v2 {
+    margin-top: 80px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+    .v2:hover {
+        color: #ffffff;
+    }
+
+    .v2 i {
+        font-size: 12px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+    }
+
+    .v2:hover i {
+        transform: translateX(4px);
+    }
+
 
 .divider {
     height: 2px;
@@ -788,8 +811,11 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    cursor:pointer;
 }
-
+    .news-card:hover .news-title {
+        color: #F45E0C;
+    }
 .news-image {
     height: 204px;
     overflow: hidden;
@@ -829,6 +855,7 @@ body {
     font-weight: 500;
     color: #0C0C0C;
     margin: 0;
+    transition: color 0.3s ease; /* Thêm hiệu ứng mượt khi đổi màu */
 }
 
 .news-description {
@@ -857,8 +884,11 @@ body {
     box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
     overflow: hidden;
     display: flex;
+    cursor: pointer;
 }
-
+    .news-item:hover .item-title {
+        color: #F45E0C;
+    }
 .item-image {
     width: 240px;
     height: 156px;
@@ -890,6 +920,7 @@ body {
     font-weight: 500;
     color: #0C0C0C;
     margin: 0;
+    transition: color 0.3s ease; /* Thêm hiệu ứng mượt khi đổi màu */
 }
 
 .highlight {

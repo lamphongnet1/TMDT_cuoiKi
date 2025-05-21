@@ -38,6 +38,9 @@ wwwroot\img\random-shape-in-blue-png 2.png
 wwwroot\img\raugaonam_categories.png
 wwwroot\img\suckhoe_categories.png
 wwwroot\img\thitcatuoi_categories.png
+wwwroot\img\tintuc_1.jpg
+wwwroot\img\tintuc_2.jpg
+wwwroot\img\tintuc_3.jpg
 wwwroot\img\transport.png
 wwwroot\img\twitter.png
 wwwroot\img\visa.png
