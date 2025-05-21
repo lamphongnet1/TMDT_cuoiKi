@@ -103,34 +103,80 @@
     </div>
 </div>
 <div class="container">
+    <!-- Related Products -->
     <div class="related-products">
-        <h3 class="section-title">Khách hàng cũng quan tâm</h3>
-        <div class="products-grid">
-            @foreach (var item in Model)
-            {
-                var product = item.IdsanPhamNavigation;
-                if (product != null)
-                {
-                    <div class="product-card">
-                        <img src="@product.IdsanPham" alt="@product.TenSanPham" class="product-image">
-                        <div class="product-info">
-                            <div class="product-title">@product.TenSanPham</div>
-                            <div class="product-price">@String.Format("{0:N0}đ", product.GiaBan)</div>
-                            <div class="product-rating">
-                                <div class="stars">⭐ @product.SoLuongTon</div>
-                            </div>
-                            <div class="product-actions">
-                                <button class="add-to-cart">
-                                    <i>🛒</i> Thêm vào giỏ
-                                </button>
-                                <button class="wishlist-btn">❤️</button>
-                            </div>
-                        </div>
+        <h3 class="rp-section-title">Khách hàng cũng quan tâm</h3>
+        <div class="rp-products-grid">
+            <div class="rp-product-card">
+                <img src="https://via.placeholder.com/250x180" alt="Trà Minh Mạng" class="rp-product-image">
+                <div class="rp-product-info">
+                    <div class="rp-product-title">Trà Minh Mạng 360g (12 túi x 30g)</div>
+                    <div class="rp-product-price">25.450.000đ</div>
+                    <div class="rp-product-rating">
+                        <div class="rp-stars">⭐ 4.5</div>
                     </div>
-                }
-            }
+                    <div class="rp-product-actions">
+                        <button class="rp-add-to-cart">
+                            <i>🛒</i> Thêm vào giỏ
+                        </button>
+                        <button class="rp-wishlist-btn">❤️</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rp-product-card">
+                <img src="https://via.placeholder.com/250x180" alt="Trà Quý Phi" class="rp-product-image">
+                <div class="rp-product-info">
+                    <div class="rp-product-title">Trà Quý Phi (12 gói)</div>
+                    <div class="rp-product-price">18.990.000đ</div>
+                    <div class="rp-product-rating">
+                        <div class="rp-stars">⭐ 4.5</div>
+                    </div>
+                    <div class="rp-product-actions">
+                        <button class="rp-add-to-cart">
+                            <i>🛒</i> Thêm vào giỏ
+                        </button>
+                        <button class="rp-wishlist-btn">❤️</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rp-product-card">
+                <img src="https://via.placeholder.com/250x180" alt="Trà cung đình Đức Phượng G10" class="rp-product-image">
+                <div class="rp-product-info">
+                    <div class="rp-product-title">Trà cung đình Đức Phượng G10 (20 gói x 30g)</div>
+                    <div class="rp-product-price">21.990.000đ</div>
+                    <div class="rp-product-rating">
+                        <div class="rp-stars">⭐ 4.5</div>
+                    </div>
+                    <div class="rp-product-actions">
+                        <button class="rp-add-to-cart">
+                            <i>🛒</i> Thêm vào giỏ
+                        </button>
+                        <button class="rp-wishlist-btn">❤️</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rp-product-card">
+                <img src="https://via.placeholder.com/250x180" alt="Trà cung đình Đức Phượng (hộp sứu chịu)" class="rp-product-image">
+                <div class="rp-product-info">
+                    <div class="rp-product-title">Trà cung đình Đức Phượng (hộp sứu chịu)</div>
+                    <div class="rp-product-price">18.550.00đ</div>
+                    <div class="rp-product-rating">
+                        <div class="rp-stars">⭐ 4.5</div>
+                    </div>
+                    <div class="rp-product-actions">
+                        <button class="rp-add-to-cart">
+                            <i>🛒</i> Thêm vào giỏ
+                        </button>
+                        <button class="rp-wishlist-btn">❤️</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
 <script>
     function updateCartSummary() {
@@ -146,7 +192,7 @@
 
         document.getElementById('subtotal').textContent = total.toLocaleString('vi-VN') + 'đ';
         document.getElementById('total').textContent = total.toLocaleString('vi-VN') + 'đ';
-        document.getElementById('item-count').textContent = count;
+        document.getElementById('item-count').textContent = count + ' sản phẩm';
     }
 
     document.querySelectorAll('.cart-item').forEach(item => {

@@ -21,6 +21,562 @@
       "PackagePath": "staticwebassets\\css\\style_homepage.css"
     },
     {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\10692220.png",
+      "PackagePath": "staticwebassets\\images\\10692220.png"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\4969682.png",
+      "PackagePath": "staticwebassets\\images\\4969682.png"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\6-1548556171523.webp",
+      "PackagePath": "staticwebassets\\images\\6-1548556171523.webp"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\aocophuchue1.jpg",
+      "PackagePath": "staticwebassets\\images\\aocophuchue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\aocophuchue2.jpg",
+      "PackagePath": "staticwebassets\\images\\aocophuchue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\aoilovedanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\aoilovedanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\background2.avif",
+      "PackagePath": "staticwebassets\\images\\background2.avif"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\background3.avif",
+      "PackagePath": "staticwebassets\\images\\background3.avif"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\background4.jpg",
+      "PackagePath": "staticwebassets\\images\\background4.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhbeohue1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhbeohue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhbeohue2.jpg",
+      "PackagePath": "staticwebassets\\images\\banhbeohue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhbeohue3.jpg",
+      "PackagePath": "staticwebassets\\images\\banhbeohue3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhbotlochue1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhbotlochue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhbotlochue2.jpg",
+      "PackagePath": "staticwebassets\\images\\banhbotlochue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhbotlochue3.jpg",
+      "PackagePath": "staticwebassets\\images\\banhbotlochue3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhinhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhinhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhkhomecamledanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhkhomecamledanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhkhomedanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhkhomedanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhthuanquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhthuanquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhtrancuonthitheo1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhtrancuonthitheo1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhtrancuonthitheo2.jpg",
+      "PackagePath": "staticwebassets\\images\\banhtrancuonthitheo2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhtrancuonthitheo3.jpg",
+      "PackagePath": "staticwebassets\\images\\banhtrancuonthitheo3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhtrangtuyloandanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhtrangtuyloandanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhutropquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhutropquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhxeohoian1.jpg",
+      "PackagePath": "staticwebassets\\images\\banhxeohoian1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhxeohoian2.jpg",
+      "PackagePath": "staticwebassets\\images\\banhxeohoian2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\banhxeohoian3.jpg",
+      "PackagePath": "staticwebassets\\images\\banhxeohoian3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\binhgomquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\binhgomquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\boamtramenlamhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\boamtramenlamhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\bunbohue1.jpg",
+      "PackagePath": "staticwebassets\\images\\bunbohue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\bunbohue2.jpg",
+      "PackagePath": "staticwebassets\\images\\bunbohue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\bunbohue3.jpg",
+      "PackagePath": "staticwebassets\\images\\bunbohue3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\bunchacadanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\bunchacadanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\bunchacadanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\bunchacadanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\bunchacadanang3.jpg",
+      "PackagePath": "staticwebassets\\images\\bunchacadanang3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\cabokhodanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\cabokhodanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\cabokhodanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\cabokhodanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\cacomkhohue1.jpg",
+      "PackagePath": "staticwebassets\\images\\cacomkhohue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\cacomkhohue2.jpg",
+      "PackagePath": "staticwebassets\\images\\cacomkhohue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\cahokhoquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\cahokhoquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\cahokhoquangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\cahokhoquangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\caolauhoian1.jpg",
+      "PackagePath": "staticwebassets\\images\\caolauhoian1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\caolauhoian2.jpg",
+      "PackagePath": "staticwebassets\\images\\caolauhoian2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\caolauhoian3.jpg",
+      "PackagePath": "staticwebassets\\images\\caolauhoian3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\caydaphongthuydanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\caydaphongthuydanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chebaphue1.jpg",
+      "PackagePath": "staticwebassets\\images\\chebaphue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chebotlocheoquayhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\chebotlocheoquayhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chechuoinuongladuadanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\chechuoinuongladuadanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chedaudenquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\chedaudenquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chedaudoquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\chedaudoquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\cheduanonlanepquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\cheduanonlanepquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chehatsenlongnhanhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\chehatsenlongnhanhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chethaidanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\chethaidanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chexoaxoahatluudanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\chexoaxoahatluudanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\chuoihattramhuongdanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\chuoihattramhuongdanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\default_avatar.png",
+      "PackagePath": "staticwebassets\\images\\default_avatar.png"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\giomaytrequangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\giomaytrequangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\giomaytrequangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\giomaytrequangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\huongquehue1.jpg",
+      "PackagePath": "staticwebassets\\images\\huongquehue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\huongquehue2.jpg",
+      "PackagePath": "staticwebassets\\images\\huongquehue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\huongtramhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\huongtramhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\huongtramhue2.jpg",
+      "PackagePath": "staticwebassets\\images\\huongtramhue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\keodauphongdanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\keodauphongdanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\logo_web.png",
+      "PackagePath": "staticwebassets\\images\\logo_web.png"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\logo_web_after_removeBG.png",
+      "PackagePath": "staticwebassets\\images\\logo_web_after_removeBG.png"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\longdenhoianquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\longdenhoianquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\longdenphongthuyquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\longdenphongthuyquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\mamruochue1.jpg",
+      "PackagePath": "staticwebassets\\images\\mamruochue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\mamruochue2.jpg",
+      "PackagePath": "staticwebassets\\images\\mamruochue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\miquangquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\miquangquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\miquangquangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\miquangquangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\miquangquangnam3.jpg",
+      "PackagePath": "staticwebassets\\images\\miquangquangnam3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\mockhoacaurongdanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\mockhoacaurongdanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\mockhoadainoihue1.jpg",
+      "PackagePath": "staticwebassets\\images\\mockhoadainoihue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\mockhoaphocoquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\mockhoaphocoquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\mohinhcaurongdanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\mohinhcaurongdanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\mohinhcaurongdanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\mohinhcaurongdanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\muckhodanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\muckhodanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\muckhodanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\muckhodanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\muoiothue1.jpg",
+      "PackagePath": "staticwebassets\\images\\muoiothue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nhangquequangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\nhangquequangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nhangtramdanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\nhangtramdanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nhangtramdanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\nhangtramdanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nhangtramquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\nhangtramquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nhangtramquangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\nhangtramquangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nonbaithohue1.jpg",
+      "PackagePath": "staticwebassets\\images\\nonbaithohue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nonlahue1.jpg",
+      "PackagePath": "staticwebassets\\images\\nonlahue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nonlahue2.jpg",
+      "PackagePath": "staticwebassets\\images\\nonlahue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nuocmamcuakhequangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\nuocmamcuakhequangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nuocmamcuakhequangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\nuocmamcuakhequangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nuocmamnamodanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\nuocmamnamodanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\nuocmamnamodanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\nuocmamnamodanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\quattayquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\quattayquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\ramcuoncaidanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\ramcuoncaidanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\ramcuoncaidanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\ramcuoncaidanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\ramcuoncaidanang3.jpg",
+      "PackagePath": "staticwebassets\\images\\ramcuoncaidanang3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\ruougaodanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\ruougaodanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\ruougaohue1.jpg",
+      "PackagePath": "staticwebassets\\images\\ruougaohue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\ruougaolutquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\ruougaolutquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\ruouhongdaoquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\ruouhongdaoquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\ruouminhmanghue1.jpg",
+      "PackagePath": "staticwebassets\\images\\ruouminhmanghue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdaubachadanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdaubachadanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdaubachadanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdaubachadanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdauhoasenhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdauhoasenhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdauhoasenhue2.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdauhoasenhue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdaungaicuuquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdaungaicuuquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdaungaicuuquangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdaungaicuuquangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdauquequangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdauquequangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdauquequangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdauquequangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdausahuongdanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdausahuongdanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdausahuongdanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdausahuongdanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdautramhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdautramhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tinhdautramhue2.jpg",
+      "PackagePath": "staticwebassets\\images\\tinhdautramhue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tohehue1.jpg",
+      "PackagePath": "staticwebassets\\images\\tohehue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tohehue2.jpg",
+      "PackagePath": "staticwebassets\\images\\tohehue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tomkhohue1.jpg",
+      "PackagePath": "staticwebassets\\images\\tomkhohue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tomkhohue2.jpg",
+      "PackagePath": "staticwebassets\\images\\tomkhohue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tracungdinhhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\tracungdinhhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tracungdinhhue2.jpg",
+      "PackagePath": "staticwebassets\\images\\tracungdinhhue2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\trahoaatiso2.jpg",
+      "PackagePath": "staticwebassets\\images\\trahoaatiso2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\trahoaatisohue1.jpg",
+      "PackagePath": "staticwebassets\\images\\trahoaatisohue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\trahoalaidanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\trahoalaidanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\trahoalaidanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\trahoalaidanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tranhtheutayhue1.jpg",
+      "PackagePath": "staticwebassets\\images\\tranhtheutayhue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\trasamduadanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\trasamduadanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\trasamduadanang2.jpg",
+      "PackagePath": "staticwebassets\\images\\trasamduadanang2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\trathaomocquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\trathaomocquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\trathaomocquangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\trathaomocquangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\traxanhquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\traxanhquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\traxanhquangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\traxanhquangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tuivaiinhinhcauvangdanang1.jpg",
+      "PackagePath": "staticwebassets\\images\\tuivaiinhinhcauvangdanang1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tuongcachepnonnuocdanang.jpg",
+      "PackagePath": "staticwebassets\\images\\tuongcachepnonnuocdanang.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tuongotquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\tuongotquangnam1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tuongotquangnam2.jpg",
+      "PackagePath": "staticwebassets\\images\\tuongotquangnam2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\tuongphathue1.jpg",
+      "PackagePath": "staticwebassets\\images\\tuongphathue1.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\vn-11134207-7ras8-m5xouqe5hznc54.webp",
+      "PackagePath": "staticwebassets\\images\\vn-11134207-7ras8-m5xouqe5hznc54.webp"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\vn-11134207-7ras8-m5xouqe5m6tf9c.webp",
+      "PackagePath": "staticwebassets\\images\\vn-11134207-7ras8-m5xouqe5m6tf9c.webp"
+    },
+    {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\images\\vongtaydaquangnam1.jpg",
+      "PackagePath": "staticwebassets\\images\\vongtaydaquangnam1.jpg"
+    },
+    {
       "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\Product1.png",
       "PackagePath": "staticwebassets\\img\\Product1.png"
     },
