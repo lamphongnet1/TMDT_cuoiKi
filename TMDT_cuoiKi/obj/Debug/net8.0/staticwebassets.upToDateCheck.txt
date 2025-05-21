@@ -8,6 +8,7 @@ wwwroot\img\american express.png
 wwwroot\img\banner.png
 wwwroot\img\banner_2.png
 wwwroot\img\banner_3.png
+wwwroot\img\banner-bg.png
 wwwroot\img\cacloairuou_categories.png
 wwwroot\img\carbon_collapse_categories.png
 wwwroot\img\carbon_review.png
@@ -43,6 +44,8 @@ wwwroot\img\visa.png
 wwwroot\img\warranty.png
 wwwroot\js\dropdown_danhmuc.js
 wwwroot\js\site.js
+wwwroot\js\slider.js
+wwwroot\js\slider2.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

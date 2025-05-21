@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\img\\american express.png"
     },
     {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\banner-bg.png",
+      "PackagePath": "staticwebassets\\img\\banner-bg.png"
+    },
+    {
       "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\banner.png",
       "PackagePath": "staticwebassets\\img\\banner.png"
     },
@@ -179,6 +183,14 @@
     {
       "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\slider.js",
+      "PackagePath": "staticwebassets\\js\\slider.js"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
+      "PackagePath": "staticwebassets\\js\\slider2.js"
     },
     {
       "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\lib\\bootstrap\\LICENSE",

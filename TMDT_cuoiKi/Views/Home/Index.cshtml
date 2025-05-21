@@ -102,7 +102,6 @@
     </div>
     <div class="discount-container">
         <div class="sales-banner">
-            <div class="banner-background"></div>
             <div class="promo-text">
                 <h2>Giảm giá sốc</h2>
                 <p>Mua ngay!</p>
@@ -111,10 +110,8 @@
                     <span class="arrow-icon">›</span>
                 </button>
             </div>
-
-            <div class="product-cards">
-               
-
+            <div class="product-cards-container">
+                 <div class="product-cards">
                 @{
                     var db = new ShopHueDaQuaContext();
 
@@ -150,10 +147,15 @@
                     </div>
                 }
             </div>
-
+            </div>
             <div class="navigation-controls">
-                <button class="nav-button prev-button"></button>
-                <button class="nav-button next-button"></button>
+                
+                <button class="nav-button prev-button">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="nav-button next-button">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
         </div>
     </div>
@@ -167,7 +169,17 @@
 
         <hr class="section-divider">
 
-        <div class="product-grid_2">
+        <div class="product-carousel">
+            <div class="carousel-nav">
+                <button class="carousel-button prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-button next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="product-slider">
             @{
 
                 // Lấy 5 sản phẩm mới nhất (IdsanPham lớn nhất) kèm theo hình ảnh đầu tiên
@@ -199,6 +211,7 @@
                 </div>
             }
 
+            </div>
         </div>
     </div>
     <div class="midbanner-container">
@@ -221,7 +234,17 @@
 
         <hr class="section-divider">
 
-        <div class="product-grid_2">
+        <div class="product-carousel">
+            <div class="carousel-nav">
+                <button class="carousel-button prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-button next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="product-slider">
             @{
 
                 // Giả định sản phẩm mới là bán chạy nhất – lấy 5 sản phẩm mới nhất
@@ -251,7 +274,7 @@
                     </div>
                 </div>
             }
-
+            </div>
         </div>
     </div>
     <div class="midbanner_2-container">
@@ -457,3 +480,5 @@
         </div>
     </div>
 </div>
+<script src="~/js/slider.js"></script>
+<script src="~/js/slider2.js"></script>

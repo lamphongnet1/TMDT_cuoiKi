@@ -56,6 +56,9 @@
         margin-top: 20px;
         text-align: right;
     }
+    .main-banner-content a {
+        color:white
+    }
 
 .buy-button {
     display: inline-block;
@@ -66,7 +69,19 @@
     text-decoration: none;
     font-weight: bold;
     margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
 }
+
+    .buy-button:hover {
+        background-color: #1e5f2a;
+        transform: scale(1.05);
+    }
+
+    .buy-button:active {
+        transform: scale(0.95); /* Co lại nhẹ khi click */
+    }
+
+
 
 .dots {
     position: absolute;
