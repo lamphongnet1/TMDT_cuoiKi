@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chủ";
 }
 <link rel="stylesheet" href="~/css/style_homepage.css" />
 <link rel="stylesheet" href="~/css/style_banner.css" />
@@ -132,19 +132,22 @@
 
                 @foreach (var item in danhSachSp)
                 {
-                    <div class="product-card">
-                        <div class="discount-badge">-50%</div>
-                        <div class="product-image">
-                            <img src="@(item.HinhAnh ?? "images/default-product.jpg")" alt="@item.SanPham.TenSanPham">
+                        <div class="product-card">
+                            <a href="@Url.Action("ChiTietSanPham", "Home", new { id = item.SanPham.IdsanPham })" class="product-card-link">
+                                <div class="discount-badge">-50%</div>
+                                <div class="product-image">
+                                    <img src="@(item.HinhAnh ?? "images/default-product.jpg")" alt="@item.SanPham.TenSanPham">
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-name">@item.SanPham.TenSanPham</div>
+                                    <div class="product-price">
+                                        <span class="original-price">@String.Format("{0:N0}đ", item.SanPham.GiaBan * 2)</span>
+                                        <span class="sale-price">@String.Format("{0:N0}đ", item.SanPham.GiaBan)</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="product-info">
-                            <div class="product-name">@item.SanPham.TenSanPham</div>
-                            <div class="product-price">
-                                <span class="original-price">@String.Format("{0:N0}đ", item.SanPham.GiaBan * 2)</span>
-                                <span class="sale-price">@String.Format("{0:N0}đ", item.SanPham.GiaBan)</span>
-                            </div>
-                        </div>
-                    </div>
+
                 }
             </div>
             </div>

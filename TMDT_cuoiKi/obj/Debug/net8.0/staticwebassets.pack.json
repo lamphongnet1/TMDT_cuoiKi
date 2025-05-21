@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\css\\style_homepage.css"
     },
     {
-      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\Product1.png",
       "PackagePath": "staticwebassets\\img\\Product1.png"
     },
@@ -75,6 +71,10 @@
     {
       "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\facebook.png",
       "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
     },
     {
       "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\giavi_categories.png",

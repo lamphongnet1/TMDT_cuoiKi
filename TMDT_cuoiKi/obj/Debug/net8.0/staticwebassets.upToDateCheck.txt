@@ -3,7 +3,6 @@ wwwroot\css\style_banner.css
 wwwroot\css\style_homepage.css
 wwwroot\css\Style-footer.css
 wwwroot\css\Style-header.css
-wwwroot\favicon.ico
 wwwroot\img\american express.png
 wwwroot\img\banner.png
 wwwroot\img\banner_2.png
@@ -14,6 +13,7 @@ wwwroot\img\carbon_collapse_categories.png
 wwwroot\img\carbon_review.png
 wwwroot\img\content_banner.png
 wwwroot\img\facebook.png
+wwwroot\img\favicon.png
 wwwroot\img\giavi_categories.png
 wwwroot\img\google.png
 wwwroot\img\high_quality.png

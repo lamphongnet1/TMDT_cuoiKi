@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "D:\\Workspace VStudio\\TMDT_cuoiKi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\wwwroot\\css\\style_homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\wwwroot\\css\\style_homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\wwwroot\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\wwwroot\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\wwwroot\\img\\logo_2.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\wwwroot\\img\\logo_2.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\wwwroot\\js\\slider2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\wwwroot\\js\\slider2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\wwwroot\\css\\style_homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\wwwroot\\css\\style_homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\wwwroot\\js\\slider2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\wwwroot\\js\\slider2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\workspace vstudio\\tmdt_cuoiki\\tmdt_cuoiki\\wwwroot\\js\\slider.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -30,36 +58,139 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "slider2.js",
-              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
-              "RelativeDocumentMoniker": "TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
-              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
-              "RelativeToolTip": "TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
-              "ViewState": "AgIAANAAAAAAAAAAAAAYwNYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-21T04:11:02.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "TMDT_cuoiKi\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAEkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAALoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T03:59:03.43Z"
+              "WhenOpened": "2025-05-21T12:56:57.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "logo_2.png - PNG [430x116, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\logo_2.png",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\wwwroot\\img\\logo_2.png",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\logo_2.png - PNG [430x116, 32 bit, PNG]",
+              "RelativeToolTip": "TMDT_cuoiKi\\wwwroot\\img\\logo_2.png - PNG [430x116, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-21T12:54:58.185Z",
+              "EditorCaption": " - PNG [430x116, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "logo.png - PNG [237x61, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\logo.png",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\wwwroot\\img\\logo.png",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\logo.png - PNG [237x61, 32 bit, PNG]",
+              "RelativeToolTip": "TMDT_cuoiKi\\wwwroot\\img\\logo.png - PNG [237x61, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-21T12:54:56.327Z",
+              "EditorCaption": " - PNG [237x61, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Program.cs",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Program.cs",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Program.cs",
+              "RelativeToolTip": "TMDT_cuoiKi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:44:53.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\appsettings.json",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\appsettings.json",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\appsettings.json",
+              "RelativeToolTip": "TMDT_cuoiKi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T12:44:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TMDT_cuoiKi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:58:28.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ChiTietSanPham.cshtml",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Home\\ChiTietSanPham.cshtml",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\Home\\ChiTietSanPham.cshtml",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Home\\ChiTietSanPham.cshtml",
+              "RelativeToolTip": "TMDT_cuoiKi\\Views\\Home\\ChiTietSanPham.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T11:29:34.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TMDT_cuoiKi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T02:27:31.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "style_homepage.css",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
+              "RelativeToolTip": "TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAuwNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-20T09:46:06.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Controllers\\GioHangController.cs",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "TMDT_cuoiKi\\Controllers\\GioHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:04:00.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "slider.js",
               "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\slider.js",
               "RelativeDocumentMoniker": "TMDT_cuoiKi\\wwwroot\\js\\slider.js",
@@ -71,29 +202,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TMDT_cuoiKi\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAnwGsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T02:27:31.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "style_homepage.css",
-              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
-              "RelativeDocumentMoniker": "TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
-              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
-              "RelativeToolTip": "TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
-              "ViewState": "AgIAAPgCAAAAAAAAAAAqwA8DAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-20T09:46:06.534Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "slider2.js",
+              "DocumentMoniker": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
+              "ToolTip": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
+              "RelativeToolTip": "TMDT_cuoiKi\\wwwroot\\js\\slider2.js",
+              "ViewState": "AgIAANAAAAAAAAAAAAAYwNYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-21T04:11:02.493Z"
             }
           ]
         },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "owe0a+HBcivLz0ISir0WjZaQPcYwiFSzB38xLncW6b8=",
+  "Hash": "Ugm+4LOotXBy7sMNb9qWFhex5TPJLgNU66zUGlvtwW8=",
   "Source": "TMDT_cuoiKi",
   "BasePath": "_content/TMDT_cuoiKi",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cndf2axcsq",
-      "Integrity": "KFOXc7WLOViY6bmdcqzBbmRgXB5rce/3tN9QNKQ4wvw=",
+      "Fingerprint": "r5cg801tre",
+      "Integrity": "cQYIM+9jEryPw12zSO85yD5gqhmbsohCedtD80CGodw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style_homepage.css"
@@ -120,27 +120,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Style-header.css"
-    },
-    {
-      "Identity": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\favicon.ico",
-      "SourceId": "TMDT_cuoiKi",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\",
-      "BasePath": "_content/TMDT_cuoiKi",
-      "RelativePath": "favicon#[.{fingerprint}]?.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\american express.png",
@@ -351,6 +330,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\facebook.png"
+    },
+    {
+      "Identity": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\favicon.png",
+      "SourceId": "TMDT_cuoiKi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\",
+      "BasePath": "_content/TMDT_cuoiKi",
+      "RelativePath": "img/favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kz61nfmkk6",
+      "Integrity": "oEyykg2pNNl31iqKrSDS9y4fKkLGChVrgTpGNK5G3/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\favicon.png"
     },
     {
       "Identity": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\giavi_categories.png",
@@ -2556,51 +2556,6 @@
       ]
     },
     {
-      "Route": "css/style_homepage.cndf2axcsq.css",
-      "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21556"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KFOXc7WLOViY6bmdcqzBbmRgXB5rce/3tN9QNKQ4wvw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 10:35:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cndf2axcsq"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style_homepage.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KFOXc7WLOViY6bmdcqzBbmRgXB5rce/3tN9QNKQ4wvw="
-        }
-      ]
-    },
-    {
       "Route": "css/style_homepage.css",
       "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
       "Selectors": [],
@@ -2611,7 +2566,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21556"
+          "Value": "21548"
         },
         {
           "Name": "Content-Type",
@@ -2619,11 +2574,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KFOXc7WLOViY6bmdcqzBbmRgXB5rce/3tN9QNKQ4wvw=\""
+          "Value": "\"cQYIM+9jEryPw12zSO85yD5gqhmbsohCedtD80CGodw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 10:35:43 GMT"
+          "Value": "Wed, 21 May 2025 12:36:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2633,7 +2588,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KFOXc7WLOViY6bmdcqzBbmRgXB5rce/3tN9QNKQ4wvw="
+          "Value": "sha256-cQYIM+9jEryPw12zSO85yD5gqhmbsohCedtD80CGodw="
+        }
+      ]
+    },
+    {
+      "Route": "css/style_homepage.r5cg801tre.css",
+      "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\css\\style_homepage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cQYIM+9jEryPw12zSO85yD5gqhmbsohCedtD80CGodw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 12:36:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r5cg801tre"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style_homepage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cQYIM+9jEryPw12zSO85yD5gqhmbsohCedtD80CGodw="
         }
       ]
     },
@@ -2798,88 +2798,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-HlyRo7w3PlqYwiQmH/4LkQ1YofbqcgF2U5xLjVVk5Hs="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 07:52:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 07:52:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
         }
       ]
     },
@@ -3700,6 +3618,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Nd4Zrl74J+5ol7TL4133P2NB/TjYw14fv+gesfsX3KA="
+        }
+      ]
+    },
+    {
+      "Route": "img/favicon.kz61nfmkk6.png",
+      "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oEyykg2pNNl31iqKrSDS9y4fKkLGChVrgTpGNK5G3/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 12:55:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kz61nfmkk6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oEyykg2pNNl31iqKrSDS9y4fKkLGChVrgTpGNK5G3/k="
+        }
+      ]
+    },
+    {
+      "Route": "img/favicon.png",
+      "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\img\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oEyykg2pNNl31iqKrSDS9y4fKkLGChVrgTpGNK5G3/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 12:55:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oEyykg2pNNl31iqKrSDS9y4fKkLGChVrgTpGNK5G3/k="
         }
       ]
     },

@@ -1164,3 +1164,8 @@ body {
         margin-bottom: 20px;
     }
 }
+.product-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
