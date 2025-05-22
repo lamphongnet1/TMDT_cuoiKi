@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TMDT_cuoiKi.Data;
+using TMDT_cuoiKi.Models;
+using TMDT_cuoiKi.Models;
 
 namespace TMDT_cuoiKi.Controllers
 {
@@ -12,15 +14,30 @@ namespace TMDT_cuoiKi.Controllers
         {
             _context = context;
         }
+
         public IActionResult Index()
         {
-            var chiTietGioHangList = _context.ChiTietGioHangs
-           .Where(c => c.IdgioHang == 1)
-           .Include(c => c.IdsanPhamNavigation)
-             .ThenInclude(p => p.HinhAnhSanPhams)
-           .ToList();
+            var cartId = 1;
 
-            return View(chiTietGioHangList);
+            var chiTietGioHangList = _context.ChiTietGioHangs
+                .Where(c => c.IdgioHang == cartId)
+                .Include(c => c.IdsanPhamNavigation)
+                    .ThenInclude(p => p.HinhAnhSanPhams)
+                .ToList();
+
+            var goiYSanPhams = _context.SanPhams
+                .Include(p => p.HinhAnhSanPhams)
+                .OrderBy(p => Guid.NewGuid())
+                .Take(4)
+                .ToList();
+
+            var viewModel = new GioHangViewModel
+            {
+                ChiTietGioHangList = chiTietGioHangList,
+                GoiYSanPhams = goiYSanPhams
+            };
+
+            return View(viewModel);
         }
     }
 }

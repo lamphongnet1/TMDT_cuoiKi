@@ -2,7 +2,8 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@model IEnumerable<TMDT_cuoiKi.Data.ChiTietGioHang>
+@model TMDT_cuoiKi.Models.GioHangViewModel
+
 <link rel="stylesheet" href="~/css/style_homepage.css" />
 <link rel="stylesheet" href="~/style-phong/Style-gioHang.css" />
 
@@ -11,19 +12,19 @@
     <div class="progress-indicator">
         <div class="progress-step active">
             <div class="step-icon">
-                <i>🛒</i>
+                <i><img src="~/img/stepper circle.png"></img></i>
             </div>
             <div class="step-label">Giỏ hàng</div>
         </div>
         <div class="progress-step">
             <div class="step-icon">
-                <i>📋</i>
+                <i><img src="~/img/truck.png"></img></i>
             </div>
             <div class="step-label">Kiểm tra</div>
         </div>
         <div class="progress-step">
             <div class="step-icon">
-                <i>✓</i>
+                <i><img src="~/img/card.png"></img></i>
             </div>
             <div class="step-label">Thanh toán</div>
         </div>
@@ -34,7 +35,7 @@
         <!-- Cart Items -->
         <div class="order-details">
             <div class="cart-items">
-                @foreach (var item in Model)
+                @foreach (var item in Model.ChiTietGioHangList)
                 {
                     var product = item.IdsanPhamNavigation;
                     var firstImage = "." + (product.HinhAnhSanPhams.FirstOrDefault()?.HinhAnh ?? "placeholder.jpg");
@@ -96,87 +97,40 @@
                 <span id="total" class="text-danger fw-bold">0đ</span>
             </div>
 
-            <button class="checkout-btn">Tiến hành thanh toán</button>
+            <button class="checkout-btn">Tiến hành điền thông tin</button>
         </div>
         <!-- Related Products -->
 
     </div>
 </div>
 <div class="container">
-    <!-- Related Products -->
-    <div class="related-products">
-        <h3 class="rp-section-title">Khách hàng cũng quan tâm</h3>
-        <div class="rp-products-grid">
-            <div class="rp-product-card">
-                <img src="https://via.placeholder.com/250x180" alt="Trà Minh Mạng" class="rp-product-image">
-                <div class="rp-product-info">
-                    <div class="rp-product-title">Trà Minh Mạng 360g (12 túi x 30g)</div>
-                    <div class="rp-product-price">25.450.000đ</div>
-                    <div class="rp-product-rating">
-                        <div class="rp-stars">⭐ 4.5</div>
-                    </div>
-                    <div class="rp-product-actions">
-                        <button class="rp-add-to-cart">
-                            <i>🛒</i> Thêm vào giỏ
-                        </button>
-                        <button class="rp-wishlist-btn">❤️</button>
+<h4>Gợi ý cho bạn</h4>
+</div>
+<div class="rp-container">
+@foreach (var sp in Model.GoiYSanPhams)
+{
+        var firstImage = "." + (sp.HinhAnhSanPhams.FirstOrDefault()?.HinhAnh ?? "https://coffective.com/wp-content/uploads/2018/06/default-featured-image.png.jpg");
+    <div class="rp-product-card">
+        <img src="@firstImage" alt="@sp.TenSanPham" class="rp-product-image">
+        <div class="rp-product-info">
+            <h3 class="rp-product-title">@sp.TenSanPham</h3>
+
+            <div class="rp-product-details">
+                <div class="rp-price-rating">
+                    <span class="rp-price">@String.Format("{0:N0}đ", sp.GiaBan)</span>
+                    <div class="rp-rating">
+                        <span class="rp-star">★</span>
+                        <span class="rp-rating-score">4.8</span>
                     </div>
                 </div>
             </div>
 
-            <div class="rp-product-card">
-                <img src="https://via.placeholder.com/250x180" alt="Trà Quý Phi" class="rp-product-image">
-                <div class="rp-product-info">
-                    <div class="rp-product-title">Trà Quý Phi (12 gói)</div>
-                    <div class="rp-product-price">18.990.000đ</div>
-                    <div class="rp-product-rating">
-                        <div class="rp-stars">⭐ 4.5</div>
-                    </div>
-                    <div class="rp-product-actions">
-                        <button class="rp-add-to-cart">
-                            <i>🛒</i> Thêm vào giỏ
-                        </button>
-                        <button class="rp-wishlist-btn">❤️</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="rp-product-card">
-                <img src="https://via.placeholder.com/250x180" alt="Trà cung đình Đức Phượng G10" class="rp-product-image">
-                <div class="rp-product-info">
-                    <div class="rp-product-title">Trà cung đình Đức Phượng G10 (20 gói x 30g)</div>
-                    <div class="rp-product-price">21.990.000đ</div>
-                    <div class="rp-product-rating">
-                        <div class="rp-stars">⭐ 4.5</div>
-                    </div>
-                    <div class="rp-product-actions">
-                        <button class="rp-add-to-cart">
-                            <i>🛒</i> Thêm vào giỏ
-                        </button>
-                        <button class="rp-wishlist-btn">❤️</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="rp-product-card">
-                <img src="https://via.placeholder.com/250x180" alt="Trà cung đình Đức Phượng (hộp sứu chịu)" class="rp-product-image">
-                <div class="rp-product-info">
-                    <div class="rp-product-title">Trà cung đình Đức Phượng (hộp sứu chịu)</div>
-                    <div class="rp-product-price">18.550.00đ</div>
-                    <div class="rp-product-rating">
-                        <div class="rp-stars">⭐ 4.5</div>
-                    </div>
-                    <div class="rp-product-actions">
-                        <button class="rp-add-to-cart">
-                            <i>🛒</i> Thêm vào giỏ
-                        </button>
-                        <button class="rp-wishlist-btn">❤️</button>
-                    </div>
-                </div>
+            <div class="rp-hover-actions">
+                <button class="rp-btn rp-btn-cart">🛒 Thêm vào giỏ</button>
             </div>
         </div>
     </div>
-
+}
 </div>
 <script>
     function updateCartSummary() {

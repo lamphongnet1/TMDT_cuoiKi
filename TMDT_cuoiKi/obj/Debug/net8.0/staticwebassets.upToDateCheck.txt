@@ -150,6 +150,7 @@ wwwroot\img\banner-bg.png
 wwwroot\img\cacloairuou_categories.png
 wwwroot\img\carbon_collapse_categories.png
 wwwroot\img\carbon_review.png
+wwwroot\img\card.png
 wwwroot\img\content_banner.png
 wwwroot\img\facebook.png
 wwwroot\img\favicon.png
@@ -175,12 +176,14 @@ wwwroot\img\Product2.png
 wwwroot\img\Product3.png
 wwwroot\img\random-shape-in-blue-png 2.png
 wwwroot\img\raugaonam_categories.png
+wwwroot\img\stepper circle.png
 wwwroot\img\suckhoe_categories.png
 wwwroot\img\thitcatuoi_categories.png
 wwwroot\img\tintuc_1.jpg
 wwwroot\img\tintuc_2.jpg
 wwwroot\img\tintuc_3.jpg
 wwwroot\img\transport.png
+wwwroot\img\truck.png
 wwwroot\img\twitter.png
 wwwroot\img\visa.png
 wwwroot\img\warranty.png

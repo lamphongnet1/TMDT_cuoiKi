@@ -21,15 +21,15 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 // Add these services
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>
-    {
-        options.LoginPath = "/Login";
-        options.LogoutPath = "/Login/Logout";
-        options.AccessDeniedPath = "/Login";
-        options.ExpireTimeSpan = TimeSpan.FromDays(7);
-        options.SlidingExpiration = true;
-    });
+//builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+//    .AddCookie(options =>
+//    {
+//        options.LoginPath = "/Login";
+//        options.LogoutPath = "/Login/Logout";
+//        options.AccessDeniedPath = "/Login";
+//        options.ExpireTimeSpan = TimeSpan.FromDays(7);
+//        options.SlidingExpiration = true;
+//    });
 
 // Add in the middleware pipeline
 app.UseAuthentication();
