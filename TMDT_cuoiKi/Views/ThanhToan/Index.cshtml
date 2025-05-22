@@ -1,0 +1,117 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/style-phong/Style-kiemTra.css" />
+
+
+<!-- Progress Indicator -->
+<div class="progress-indicator">
+    <div class="progress-step">
+        <div class="step-icon" style="background-color: #477433;">
+            <i><img src="~/img/bag-happy.png"></img></i>
+        </div>
+        <div class="step-label">Giỏ hàng</div>
+    </div>
+    <div class="progress-step active">
+        <div class="step-icon">
+            <i><img src="~/img/stepper circle (2).png"></img></i>
+        </div>
+        <div class="step-label">Kiểm tra</div>
+    </div>
+    <div class="progress-step">
+        <div class="step-icon">
+            <i><img src="~/img/card.png"></img></i>
+        </div>
+        <div class="step-label">Thanh toán</div>
+    </div>
+</div>
+
+    <div class="checkout-wrapper">
+        <div class="checkout-container">
+            <div class="tab-header">
+                <div class="tab-item active">Thông tin mua hàng</div>
+                <div class="tab-item">Thanh toán</div>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="product-section">
+                    <div class="product-item">
+                        <img src="/api/placeholder/80/80" alt="Mắm tôm chua Dị Cần" class="product-image">
+                        <div class="product-details">
+                            <div class="product-name">Mắm tôm chua Dị Cần</div>
+                            <div class="product-rating">★★★★☆</div>
+                            <div class="product-price">65.000đ</div>
+                        </div>
+                        <div class="product-quantity">Số lượng : 1</div>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <div class="form-container">
+                        <div class="section-title">Thông tin nhận hàng</div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Họ tên người nhận</label>
+                                <input type="text" class="form-input" value="Nguyễn Việt Lâm Phong">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Số điện thoại</label>
+                                <input type="text" class="form-input" value="0856445778">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Tỉnh / Thành phố</label>
+                                <select class="form-select">
+                                    <option>Đà Nẵng</option>
+                                    <option>Hồ Chí Minh</option>
+                                    <option>Hà Nội</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Quận huyện</label>
+                                <select class="form-select">
+                                    <option>Huyện Hoàng Sa</option>
+                                    <option>Quận Hải Châu</option>
+                                    <option>Quận Thanh Khê</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Phường / Xã</label>
+                                <select class="form-select">
+                                    <option>Tên phường / xã</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Địa chỉ cụ thể</label>
+                                <input type="text" class="form-input" placeholder="Số nhà, tên đường">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Ghi chú khác (tùy chọn)</label>
+                                <input type="text" class="form-input" placeholder="Ghi chú">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="total-section">
+                    <div class="total-row">
+                        <span class="total-label">Tổng tiền phải thanh toán :</span>
+                        <span class="total-amount">65.000đ</span>
+                    </div>
+                    <button class="continue-btn">Tiếp tục</button>
+                </div>
+            </div>
+        </div>
+    </div>
+

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rFy0+5Pz3Ne9dBCABl5RgWL5pMXCy2yXGUb/opm35KY=",
+  "Hash": "dwsUCy2E9p8uIVeFWwuvAbicKVSAlAVaYrqli+QtaeQ=",
   "Source": "TMDT_cuoiKi",
   "BasePath": "_content/TMDT_cuoiKi",
   "Mode": "Default",
@@ -5349,6 +5349,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-header.css"
+    },
+    {
+      "Identity": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-kiemTra.css",
+      "SourceId": "TMDT_cuoiKi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\",
+      "BasePath": "_content/TMDT_cuoiKi",
+      "RelativePath": "style-phong/Style-kiemTra#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pmm1r2p51a",
+      "Integrity": "L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style-phong\\Style-kiemTra.css"
     },
     {
       "Identity": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-xemchitiet.css",
@@ -26198,6 +26219,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-JLtxpxpCIfKIYhXGfotPqPdCO40jzaoAZxIX3jM+ZxQ="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-kiemTra.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-kiemTra.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:29:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-kiemTra.pmm1r2p51a.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-kiemTra.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:29:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmm1r2p51a"
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-kiemTra.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w="
         }
       ]
     },

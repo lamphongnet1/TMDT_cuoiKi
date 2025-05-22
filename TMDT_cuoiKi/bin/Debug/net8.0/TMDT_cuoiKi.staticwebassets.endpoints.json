@@ -20831,6 +20831,88 @@
       ]
     },
     {
+      "Route": "style-phong/Style-kiemTra.css",
+      "AssetFile": "style-phong/Style-kiemTra.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:29:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-kiemTra.pmm1r2p51a.css",
+      "AssetFile": "style-phong/Style-kiemTra.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:29:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmm1r2p51a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L8TclaXayj34K+Pe+VZKrccqqEU1rHzQJGcS+vxm29w="
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-kiemTra.css"
+        }
+      ]
+    },
+    {
       "Route": "style-phong/Style-xemchitiet.css",
       "AssetFile": "style-phong/Style-xemchitiet.css",
       "Selectors": [],
