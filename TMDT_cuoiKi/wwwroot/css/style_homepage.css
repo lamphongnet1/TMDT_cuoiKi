@@ -155,7 +155,7 @@ body {
     overflow: hidden;
     border-radius: 8px;
     background-image: url('../img/banner-bg.png');
-    display:flex
+    display: flex
 }
 
 
@@ -168,7 +168,7 @@ body {
 }
 
     .promo-text h2 {
-        margin-top:50px;
+        margin-top: 50px;
         font-size: 24px;
         font-weight: 500;
         margin-bottom: 14px;
@@ -189,6 +189,7 @@ body {
     font-size: 20px;
     line-height: 24px;
 }
+
 .product-cards-container {
     flex: 1;
     position: relative;
@@ -309,6 +310,7 @@ body {
     .nav-button:hover i {
         color: #267533; /* Đổi màu khi hover */
     }
+
 .prev-button::before {
     color: #333;
 }
@@ -425,7 +427,7 @@ body {
     display: flex;
     transition: transform 0.5s ease;
     gap: 20px;
-    margin:5px
+    margin: 5px
 }
 
 /* Product card */
@@ -758,6 +760,7 @@ body {
     .view-all:hover i {
         transform: translateX(4px);
     }
+
 .v2 {
     margin-top: 80px;
     background: transparent;
@@ -811,11 +814,13 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    cursor:pointer;
+    cursor: pointer;
 }
+
     .news-card:hover .news-title {
         color: #F45E0C;
     }
+
 .news-image {
     height: 204px;
     overflow: hidden;
@@ -886,9 +891,11 @@ body {
     display: flex;
     cursor: pointer;
 }
+
     .news-item:hover .item-title {
         color: #F45E0C;
     }
+
 .item-image {
     width: 240px;
     height: 156px;
@@ -1164,6 +1171,7 @@ body {
         margin-bottom: 20px;
     }
 }
+
 .product-card-link {
     text-decoration: none;
     color: inherit;

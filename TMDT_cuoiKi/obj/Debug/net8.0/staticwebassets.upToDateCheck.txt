@@ -143,6 +143,7 @@ wwwroot\images\vn-11134207-7ras8-m5xouqe5hznc54.webp
 wwwroot\images\vn-11134207-7ras8-m5xouqe5m6tf9c.webp
 wwwroot\images\vongtaydaquangnam1.jpg
 wwwroot\img\american express.png
+wwwroot\img\bag-happy.png
 wwwroot\img\banner.png
 wwwroot\img\banner_2.png
 wwwroot\img\banner_3.png
@@ -176,6 +177,7 @@ wwwroot\img\Product2.png
 wwwroot\img\Product3.png
 wwwroot\img\random-shape-in-blue-png 2.png
 wwwroot\img\raugaonam_categories.png
+wwwroot\img\stepper circle (2).png
 wwwroot\img\stepper circle.png
 wwwroot\img\suckhoe_categories.png
 wwwroot\img\thitcatuoi_categories.png
@@ -188,9 +190,11 @@ wwwroot\img\twitter.png
 wwwroot\img\visa.png
 wwwroot\img\warranty.png
 wwwroot\js\dropdown_danhmuc.js
+wwwroot\js\quantity.js
 wwwroot\js\site.js
 wwwroot\js\slider.js
 wwwroot\js\slider2.js
+wwwroot\js\zoom-img.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
