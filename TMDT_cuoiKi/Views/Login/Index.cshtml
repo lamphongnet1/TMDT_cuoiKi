@@ -1,0 +1,400 @@
+﻿@model TMDT_cuoiKi.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Đăng nhập / Tạo tài khoản";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500" rel="stylesheet">
+    <style>
+        :root {
+            --app-primary: #0C68F4;
+            --gray-1: #717171;
+            --gray-2: #B4B4B4;
+            --gray-3: #CBCBCB;
+            --black: #2D2D2D;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: url('~/img/background.png') no-repeat center center/cover;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 24px;
+            border-bottom: 2px solid var(--gray-3);
+            margin-bottom: 24px;
+        }
+
+        .tab {
+            padding: 8px 0;
+            flex: 1;
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: var(--gray-1);
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+            .tab.active {
+                color: var(--app-primary);
+                border-bottom: 2px solid var(--app-primary);
+                font-weight: 500;
+            }
+
+        .heading {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+
+        .auth-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            animation: fadeIn 0.3s;
+        }
+
+        .input-group {
+            position: relative;
+        }
+
+            .input-group img {
+                position: absolute;
+                top: 50%;
+                left: 12px;
+                transform: translateY(-50%);
+                width: 20px;
+                height: 20px;
+            }
+
+        .input {
+            width: 100%;
+            height: 48px;
+            padding: 12px 12px 12px 44px;
+            border: 1px solid var(--gray-2);
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .input-icon-right {
+            position: absolute;
+            top: 50%;
+            right: 12px;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 8px;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--gray-1);
+        }
+
+        .checkbox {
+            width: 18px;
+            height: 18px;
+        }
+
+        .forgot-password {
+            font-size: 14px;
+            color: var(--app-primary);
+            text-decoration: none;
+        }
+
+        .login-button {
+            width: 100%;
+            height: 48px;
+            background: var(--app-primary);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            margin-top: 16px;
+            cursor: pointer;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 24px 0;
+        }
+
+        .divider-line {
+            flex: 1;
+            height: 1px;
+            background: var(--gray-3);
+        }
+
+        .divider-text {
+            padding: 0 12px;
+            font-size: 16px;
+            color: var(--black);
+        }
+
+        .social-login {
+            display: flex;
+            gap: 16px;
+        }
+
+        .social-button {
+            flex: 1;
+            height: 48px;
+            border: 2px solid var(--app-primary);
+            border-radius: 8px;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            color: var(--app-primary);
+        }
+
+            .social-button img {
+                width: 20px;
+                height: 20px;
+            }
+
+        .register-link,
+        .login-link {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 14px;
+            color: var(--gray-1);
+        }
+
+            .register-link a,
+            .login-link a {
+                color: var(--app-primary);
+                text-decoration: none;
+            }
+
+        /* Hide forms by default */
+        .auth-form {
+            display: none;
+        }
+
+            .auth-form.active {
+                display: flex;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tab active" id="loginTab">Đăng nhập</button>
+            <button class="tab" id="registerTab">Tạo tài khoản</button>
+        </div>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                @Html.ValidationSummary(false)
+            </div>
+        }
+
+        <!-- Login Form -->
+        <form asp-action="Login" asp-controller="Login" method="post" class="auth-form active" id="loginForm">
+            <h3 class="heading">Đăng Nhập</h3>
+            <div class="input-group">
+                <img src="~/img/sms.png" alt="Email icon">
+                <input asp-for="Username" type="text" class="input" placeholder="Tên đăng nhập/Email">
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="input-group">
+                <img src="~/img/key.png" alt="Password icon">
+                <input asp-for="Password" type="password" class="input" placeholder="Mật khẩu">
+                <img src="~/img/eye-slash.png" alt="Show password" class="input-icon-right toggle-password">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-actions">
+                <label class="checkbox-label">
+                    <input asp-for="RememberMe" type="checkbox" class="checkbox">
+                    Duy trì đăng nhập
+                </label>
+                <a href="#" class="forgot-password">Quên mật khẩu?</a>
+            </div>
+            <button type="submit" class="login-button">Đăng Nhập</button>
+            <div class="divider">
+                <span class="divider-line"></span>
+                <span class="divider-text">Hoặc</span>
+                <span class="divider-line"></span>
+            </div>
+            <div class="social-login">
+                <button class="social-button google" type="button">
+                    <img src="~/img/google logo.png" alt="Google logo">
+                    <span>Google</span>
+                </button>
+                <button class="social-button facebook" type="button">
+                    <img src="~/img/facebook.png" alt="Facebook">
+                    <span>Facebook</span>
+                </button>
+            </div>
+            <div class="register-link">
+                Chưa có tài khoản? <a href="#" id="switchToRegister">Tạo tài khoản</a>
+            </div>
+        </form>
+
+        <!-- Register Form -->
+        <form asp-action="Register" asp-controller="Login" method="post" class="auth-form" id="registerForm">
+            <h3 class="heading">Tạo Tài Khoản</h3>
+            <div class="input-group">
+                <img src="~/img/user.png" alt="Tên đăng nhập">
+                <input name="TaiKhoan" type="text" class="input" placeholder="Tên đăng nhập" required>
+            </div>
+            <div class="input-group">
+                <img src="~/img/user.png" alt="Họ tên">
+                <input name="HoTen" type="text" class="input" placeholder="Họ tên" required>
+            </div>
+            <div class="input-group">
+                <img src="~/img/sms.png" alt="Email">
+                <input name="Email" type="email" class="input" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <img src="~/img/phone.png" alt="Số điện thoại">
+                <input name="SoDienThoai" type="tel" class="input" placeholder="Số điện thoại" required>
+            </div>
+            <div class="input-group">
+                <img src="~/img/location.png" alt="Địa chỉ">
+                <input name="DiaChi" type="text" class="input" placeholder="Địa chỉ" required>
+            </div>
+            <div class="input-group">
+                <img src="~/img/key.png" alt="Mật khẩu">
+                <input name="MatKhau" type="password" class="input" placeholder="Mật khẩu" required>
+                <img src="~/img/eye-slash.png" alt="Show password" class="input-icon-right toggle-password">
+            </div>
+            <div class="form-actions">
+                <label class="checkbox-label">
+                    <input name="AgreeToTerms" type="checkbox" class="checkbox" required>
+                    Tôi đồng ý với tất cả
+                </label>
+                <a href="#" class="forgot-password">Điều khoản & điều kiện</a>
+            </div>
+            <button type="submit" class="login-button">Tạo tài khoản</button>
+            <div class="divider">
+                <span class="divider-line"></span>
+                <span class="divider-text">Hoặc</span>
+                <span class="divider-line"></span>
+            </div>
+            <div class="social-login">
+                <button class="social-button" type="button">
+                    <img src="~/img/google logo.png" alt="Google">
+                    <span>Google</span>
+                </button>
+                <button class="social-button" type="button">
+                    <img src="~/img/facebook.png" alt="Facebook">
+                    <span>Facebook</span>
+                </button>
+            </div>
+            <div class="login-link">
+                Đã có tài khoản? <a href="#" id="switchToLogin">Đăng nhập</a>
+            </div>
+        </form>
+    </div>
+
+    @section Scripts {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+        <script>
+            // Chuyển đổi tab và form
+            const loginTab = document.getElementById('loginTab');
+            const registerTab = document.getElementById('registerTab');
+            const loginForm = document.getElementById('loginForm');
+            const registerForm = document.getElementById('registerForm');
+            const switchToRegister = document.getElementById('switchToRegister');
+            const switchToLogin = document.getElementById('switchToLogin');
+
+            function showLogin() {
+                loginTab.classList.add('active');
+                registerTab.classList.remove('active');
+                loginForm.classList.add('active');
+                registerForm.classList.remove('active');
+            }
+
+            function showRegister() {
+                loginTab.classList.remove('active');
+                registerTab.classList.add('active');
+                loginForm.classList.remove('active');
+                registerForm.classList.add('active');
+            }
+
+            loginTab.addEventListener('click', showLogin);
+            registerTab.addEventListener('click', showRegister);
+
+            if (switchToRegister) switchToRegister.addEventListener('click', function (e) {
+                e.preventDefault();
+                showRegister();
+            });
+            if (switchToLogin) switchToLogin.addEventListener('click', function (e) {
+                e.preventDefault();
+                showLogin();
+            });
+
+            // Hiện/ẩn mật khẩu
+            document.querySelectorAll('.toggle-password').forEach(function (toggle) {
+                toggle.addEventListener('click', function () {
+                    const input = this.previousElementSibling;
+                    if (input.type === 'password') {
+                        input.type = 'text';
+                        this.src = '/img/eye.png';
+                    } else {
+                        input.type = 'password';
+                        this.src = '/img/eye-slash.png';
+                    }
+                });
+            });
+
+            // Hiển thị thông báo thành công
+            @if (TempData["Success"] != null)
+            {
+                <text>
+                        alert('@TempData["Success"]');
+                </text>
+            }
+        </script>
+    }
+</body>
+</html>
