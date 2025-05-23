@@ -2,13 +2,9 @@
 
 namespace TMDT_cuoiKi.Controllers
 {
-    public class ThanhToanController : Controller
+    public class ThanhToan2Controller : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-        public IActionResult ThanhToan2()
         {
             return View();
         }

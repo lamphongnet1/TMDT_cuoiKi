@@ -178,6 +178,7 @@ wwwroot\img\Product3.png
 wwwroot\img\random-shape-in-blue-png 2.png
 wwwroot\img\raugaonam_categories.png
 wwwroot\img\stepper circle (2).png
+wwwroot\img\stepper circle (3).png
 wwwroot\img\stepper circle.png
 wwwroot\img\suckhoe_categories.png
 wwwroot\img\thitcatuoi_categories.png
@@ -258,4 +259,5 @@ wwwroot\style-phong\Style-footer.css
 wwwroot\style-phong\Style-gioHang.css
 wwwroot\style-phong\Style-header.css
 wwwroot\style-phong\Style-kiemTra.css
+wwwroot\style-phong\Style-thanhToan.css
 wwwroot\style-phong\Style-xemchitiet.css

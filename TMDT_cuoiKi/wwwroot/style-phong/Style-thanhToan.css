@@ -1,0 +1,295 @@
+/* Progress Indicator */
+.progress-indicator {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.progress-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 150px;
+}
+
+    .progress-step:not(:last-child):after {
+        content: '';
+        position: absolute;
+        top: 30px;
+        right: -50px;
+        width: 100px;
+        height: 2px;
+        background-color: #ddd;
+        z-index: 0;
+        /* phía sau */
+    }
+
+.step-icon {
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #c2c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #888;
+    font-size: 24px;
+}
+
+.active .step-icon {
+    background-color: #ffffff;
+    color: white;
+    width: 65px;
+    height: 65px;
+}
+
+.step-label {
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+}
+
+.active .step-label {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.checkout-wrapper {
+    min-height: 100vh;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.progress-step:first-child::after {
+    background-color: #477433;
+    /* ví dụ đổi màu */
+    height: 3px;
+    /* ví dụ đổi độ dày */
+}
+.progress-step:nth-child(2)::after {
+    background-color: #477433; /* đổi màu */
+    height: 3px; /* đổi độ dày */
+}
+
+.tt-checkout-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tt-nav-tabs {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+    background: #f8f9fa;
+    margin-bottom: 0;
+}
+
+.tt-nav-tab {
+    flex: 1;
+    padding: 12px 20px;
+    text-align: center;
+    background: #f8f9fa;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    font-size: 14px;
+    border-right: 1px solid #ddd;
+}
+
+    .tt-nav-tab:last-child {
+        border-right: none;
+    }
+
+    .tt-nav-tab.active {
+        background: white;
+        color: #007bff;
+        border-bottom: 2px solid #007bff;
+    }
+
+.tt-tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background: white;
+}
+
+.tt-order-details {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+.tt-order-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+    .tt-order-row.total {
+        font-weight: bold;
+        font-size: 16px;
+        color: #dc3545;
+        border-top: 1px solid #eee;
+        padding-top: 12px;
+        margin-top: 8px;
+    }
+
+.tt-payment-section {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.tt-section-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.tt-payment-option {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+    .tt-payment-option:hover {
+        border-color: #007bff;
+        background: #f8f9ff;
+    }
+
+.tt-payment-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #28a745, #20c997);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+    .tt-payment-icon svg {
+        width: 24px;
+        height: 24px;
+        fill: white;
+    }
+
+.tt-payment-info h4 {
+    margin: 0 0 5px 0;
+    color: #dc3545;
+    font-size: 16px;
+}
+
+.tt-payment-info p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.tt-customer-info {
+    padding: 20px;
+}
+
+.tt-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .tt-info-table tr {
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .tt-info-table td {
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+        .tt-info-table td:first-child {
+            color: #666;
+            width: 150px;
+        }
+
+        .tt-info-table td:last-child {
+            text-align: right;
+            color: #333;
+        }
+
+.tt-checkout-footer {
+    background: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.tt-total-amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.tt-checkout-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+    .tt-checkout-btn:hover {
+        background: #218838;
+    }
+
+@media (max-width: 768px) {
+    .tt-checkout-container {
+        padding: 0 10px;
+    }
+
+    .tt-nav-tab {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .tt-order-details,
+    .tt-payment-section,
+    .tt-customer-info {
+        padding: 15px;
+    }
+
+    .tt-payment-option {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .tt-payment-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .tt-checkout-footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .tt-info-table td:first-child {
+        width: 120px;
+    }
+}
+
