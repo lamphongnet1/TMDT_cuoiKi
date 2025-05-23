@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mmbymGQ8mZKA6LBLjeO848n/bsKQ9FxxNa8PljQWTz4=",
+  "Hash": "jqKNKar6qiqBohEerC5jybbnY+5zjXWpajC8WMprMMM=",
   "Source": "TMDT_cuoiKi",
   "BasePath": "_content/TMDT_cuoiKi",
   "Mode": "Default",
@@ -5412,6 +5412,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-blog.css"
+    },
+    {
+      "Identity": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+      "SourceId": "TMDT_cuoiKi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\",
+      "BasePath": "_content/TMDT_cuoiKi",
+      "RelativePath": "style-phong/Style-chiTietDonHang#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e1ijmaoskl",
+      "Integrity": "EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style-phong\\Style-chiTietDonHang.css"
     },
     {
       "Identity": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-footer.css",
@@ -26633,6 +26654,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-K5NJJJKUM1QWgGqf8J0vNIOt54jg3Z7GbWHigqOjrVE="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-chiTietDonHang.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-chiTietDonHang.e1ijmaoskl.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e1ijmaoskl"
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-chiTietDonHang.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw="
         }
       ]
     },

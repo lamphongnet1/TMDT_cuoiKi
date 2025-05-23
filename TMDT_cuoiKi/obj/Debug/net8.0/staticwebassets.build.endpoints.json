@@ -21077,6 +21077,88 @@
       ]
     },
     {
+      "Route": "style-phong/Style-chiTietDonHang.css",
+      "AssetFile": "style-phong/Style-chiTietDonHang.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:32:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-chiTietDonHang.e1ijmaoskl.css",
+      "AssetFile": "style-phong/Style-chiTietDonHang.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:32:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e1ijmaoskl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw="
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-chiTietDonHang.css"
+        }
+      ]
+    },
+    {
       "Route": "style-phong/Style-footer.css",
       "AssetFile": "style-phong/Style-footer.css",
       "Selectors": [],

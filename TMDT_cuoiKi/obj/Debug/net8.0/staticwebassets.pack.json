@@ -1029,6 +1029,10 @@
       "PackagePath": "staticwebassets\\style-phong\\Style-blog.css"
     },
     {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+      "PackagePath": "staticwebassets\\style-phong\\Style-chiTietDonHang.css"
+    },
+    {
       "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-footer.css",
       "PackagePath": "staticwebassets\\style-phong\\Style-footer.css"
     },
