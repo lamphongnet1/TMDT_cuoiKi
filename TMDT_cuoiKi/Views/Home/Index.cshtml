@@ -190,7 +190,7 @@
 
     }
 </style>
-    @using TMDT_cuoiKi.Data  <!-- thay bằng namespace chứa ShopHueDaQuaContext -->
+    @using TMDT_cuoiKi.Data
 
 <div class="content">
     <div class="main-banner">
@@ -304,8 +304,7 @@
 
                         // Lấy 5 sản phẩm rẻ nhất kèm theo hình ảnh đầu tiên
                         var danhSachSp = db.SanPhams
-                        .OrderBy(sp => sp.GiaBan) // Sắp xếp từ rẻ đến đắt
-                        .Take(5) // Chỉ lấy 5 sản phẩm đầu tiên
+                        .Take(5)
                         .Select(sp => new
                         {
                             SanPham = sp,

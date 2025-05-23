@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TMDT_cuoiKi.Data;
 using TMDT_cuoiKi.Models;
 
@@ -32,8 +34,27 @@ public class HomeController : Controller
 
         ViewBag.Id = id;
         ViewData["Title"] = sanPham.TenSanPham; // Gán tên sản phẩm cho title
-
+        ViewBag.Reviews = GetAllReviewsById(id);
         return View();
+    }
+    private List<object> GetAllReviewsById(string id)
+    {
+        var danhGiaList = _context.DanhGia
+            .Include(dg => dg.IdchiTietDonHangNavigation)
+                .ThenInclude(ct => ct.IddonHangNavigation)
+                    .ThenInclude(dh => dh.IdkhachHangNavigation)
+            .Where(dg => dg.IdchiTietDonHangNavigation.IdsanPham == id)
+            .OrderByDescending(dg => dg.ThoiGian)
+            .Select(dg => new {
+                dg.IddanhGia,
+                dg.SoSao,
+                dg.NoiDung,
+                dg.ThoiGian,
+                TenKhachHang = dg.IdchiTietDonHangNavigation.IddonHangNavigation.IdkhachHangNavigation.HoTen
+            })
+            .ToList<object>(); // Cast thành object nếu cần lưu ViewBag
+
+        return danhGiaList;
     }
 
 

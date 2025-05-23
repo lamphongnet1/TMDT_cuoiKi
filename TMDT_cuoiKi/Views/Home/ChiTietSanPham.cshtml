@@ -22,6 +22,7 @@
     @using TMDT_cuoiKi.Data  <!-- thay bằng namespace chứa ShopHueDaQuaContext -->
 @{
     var db = new ShopHueDaQuaContext();
+    var reviews = ViewBag.Reviews;
     string id = ViewBag.Id as string;
 
     // Lấy sản phẩm theo ID
@@ -302,53 +303,19 @@
 
             </div>
             <div class="review-section">
-                <div class="reviews">
-                    <div class="review">
-                        <div class="user-info">
-                            <img src="avatar1.png" alt="Avatar">
-                            <div>
-                                <strong>Lâm Phong</strong><br>
-                                <small>Tháng 3, 2025</small>
-                            </div>
-                        </div>
-                        <div class="user-rating">⭐ 1.0</div>
-                        <p>Thấy cũng bình thường nhưng mà đắt quá cho 1 sao</p>
-                        <div class="review-actions">
-                            <span>👍 3</span>
-                            <span>👎 99</span>
-                        </div>
-                    </div>
+                <div class="reviews" id="reviewsContainer">
+                    <!-- Reviews sẽ được hiển thị ở đây bằng JavaScript -->
+                </div>
 
-                    <div class="review">
-                        <div class="user-info">
-                            <img src="avatar2.png" alt="Avatar">
-                            <div>
-                                <strong>Jimmy Smith</strong><br>
-                                <small>Tháng 9 28, 2023</small>
-                            </div>
-                        </div>
-                        <div class="user-rating">⭐ 5.0</div>
-                        <p>Tôi đã thử rất nhiều loại rượu, nhưng Nhật Dạ Đế Vương (Vàng) thực sự khiến tôi ấn tượng...</p>
-                        <div class="review-actions">
-                            <span>👍 8</span>
-                            <span>👎 0</span>
-                        </div>
-                    </div>
-
-                    <div class="review">
-                        <div class="user-info">
-                            <img src="avatar3.png" alt="Avatar">
-                            <div>
-                                <strong>Sarah Anderson</strong><br>
-                                <small>Tháng 2 20, 2023</small>
-                            </div>
-                        </div>
-                        <div class="user-rating">⭐ 4.0</div>
-                        <p>Hương vị của Nhật Dạ Đế Vương (Vàng) rất thơm và êm, hậu vị ngọt nhẹ và dễ chịu...</p>
-                        <div class="review-actions">
-                            <span>👍 34</span>
-                            <span>👎 5</span>
-                        </div>
+                <!-- Pagination -->
+                <div class="pagination-container" id="paginationContainer" style="display: none;">
+                    <nav>
+                        <ul class="pagination" id="pagination">
+                            <!-- Pagination sẽ được tạo bằng JavaScript -->
+                        </ul>
+                    </nav>
+                    <div class="page-info" id="pageInfo">
+                        <!-- Thông tin trang -->
                     </div>
                 </div>
             </div>
@@ -359,7 +326,209 @@
 <script src="~/js/quantity.js"></script>
 <script src="~/js/zoom-img.js"></script>
 @Html.Partial("_ReviewModal")
+<script>
+         // Lấy dữ liệu reviews từ server
+    const allReviews = @Html.Raw(Json.Serialize(ViewBag.Reviews));
+        // Sẽ hiển thị structure của ViewBag.Reviews
+    console.log('All Reviews Data:', allReviews);
+    const itemsPerPage = 3; // Hiển thị 3 reviews mỗi trang
+    let currentPage = 1;
+    const totalPages = Math.ceil(allReviews.length / itemsPerPage);
 
+    // Hàm format ngày
+    function formatDate(dateString) {
+        const date = new Date(dateString);
+        const options = { year: 'numeric', month: 'long', day: '2-digit' };
+        return date.toLocaleDateString('vi-VN', options);
+    }
+
+    // Hàm tạo HTML cho một review
+    function createReviewHTML(review) {
+        return `
+            <div class="review">
+                <div class="user-info">
+                    <img src="https://ui-avatars.com/api/?name=${encodeURIComponent(review.tenKhachHang)}&background=random" alt="Avatar" width="50" />
+                    <div>
+                        <strong>${review.tenKhachHang}</strong><br />
+                        <small><i class="far fa-calendar-alt"></i> ${formatDate(review.thoiGian)}</small>
+                    </div>
+                </div>
+                <div class="user-rating">
+                    <i class="fas fa-star"></i> ${review.soSao}
+                </div>
+                <p>${review.noiDung}</p>
+                <div class="review-actions">
+                    <span onclick="toggleLike(this)">
+                        <i class="far fa-thumbs-up"></i> 0
+                    </span>
+                    <span onclick="toggleDislike(this)">
+                        <i class="far fa-thumbs-down"></i> 0
+                    </span>
+                </div>
+            </div>
+        `;
+    }
+
+    // Hàm hiển thị reviews cho trang hiện tại
+    function displayReviews(page) {
+        const startIndex = (page - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        const reviewsToShow = allReviews.slice(startIndex, endIndex);
+
+        const reviewsContainer = document.getElementById('reviewsContainer');
+
+        if (reviewsToShow.length === 0) {
+            reviewsContainer.innerHTML = '<div class="no-reviews">Không có đánh giá nào.</div>';
+            document.getElementById('paginationContainer').style.display = 'none';
+        } else {
+            reviewsContainer.innerHTML = reviewsToShow.map(review => createReviewHTML(review)).join('');
+            if (totalPages > 1) {
+                document.getElementById('paginationContainer').style.display = 'flex';
+            }
+        }
+    }
+
+    // Hàm tạo pagination
+    function createPagination() {
+        if (totalPages <= 1) return;
+
+        const pagination = document.getElementById('pagination');
+        let paginationHTML = '';
+
+        // Nút Previous
+        const prevDisabled = currentPage === 1 ? 'disabled' : '';
+        paginationHTML += `
+            <li class="page-item ${prevDisabled}">
+                <a class="page-link" onclick="goToPage(${currentPage - 1})">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+            </li>
+        `;
+
+        // Các số trang
+        for (let i = 1; i <= totalPages; i++) {
+            const active = i === currentPage ? 'active' : '';
+            paginationHTML += `
+                <li class="page-item ${active}">
+                    <a class="page-link" onclick="goToPage(${i})">${i}</a>
+                </li>
+            `;
+        }
+
+        // Nút Next
+        const nextDisabled = currentPage === totalPages ? 'disabled' : '';
+        paginationHTML += `
+            <li class="page-item ${nextDisabled}">
+                <a class="page-link" onclick="goToPage(${currentPage + 1})">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+        `;
+
+        pagination.innerHTML = paginationHTML;
+
+        // Cập nhật thông tin trang
+        const pageInfo = document.getElementById('pageInfo');
+        const startItem = (currentPage - 1) * itemsPerPage + 1;
+        const endItem = Math.min(currentPage * itemsPerPage, allReviews.length);
+        pageInfo.textContent = `Hiển thị ${startItem}-${endItem} trong tổng số ${allReviews.length} đánh giá`;
+    }
+
+    // Hàm chuyển trang
+    function goToPage(page) {
+        if (page < 1 || page > totalPages || page === currentPage) {
+            return;
+        }
+
+        currentPage = page;
+        displayReviews(currentPage);
+        createPagination();
+
+        // Scroll lên đầu reviews
+        document.getElementById('reviewsContainer').scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+
+    // Hàm toggle like (đã sửa)
+    function toggleLike(element) {
+        const icon = element.querySelector('i');
+        const textNode = element.childNodes[element.childNodes.length - 1];
+        let count = parseInt(textNode.textContent.trim());
+
+        // Tìm dislike button để reset nếu đang active
+        const dislikeBtn = element.parentElement.querySelector('span:nth-child(2)');
+        const dislikeIcon = dislikeBtn.querySelector('i');
+        const dislikeTextNode = dislikeBtn.childNodes[dislikeBtn.childNodes.length - 1];
+        let dislikeCount = parseInt(dislikeTextNode.textContent.trim());
+
+        // Reset dislike nếu đang active
+        if (dislikeIcon.classList.contains('fas')) {
+            dislikeIcon.classList.remove('fas');
+            dislikeIcon.classList.add('far');
+            dislikeTextNode.textContent = ' ' + (dislikeCount - 1);
+            dislikeBtn.style.color = '';
+        }
+
+        // Toggle like
+        if (icon.classList.contains('far')) {
+            icon.classList.remove('far');
+            icon.classList.add('fas');
+            textNode.textContent = ' ' + (count + 1);
+            element.style.color = '#28a745';
+        } else {
+            icon.classList.remove('fas');
+            icon.classList.add('far');
+            textNode.textContent = ' ' + (count - 1);
+            element.style.color = '';
+        }
+    }
+
+    // Hàm toggle dislike (đã sửa)
+    function toggleDislike(element) {
+        const icon = element.querySelector('i');
+        const textNode = element.childNodes[element.childNodes.length - 1];
+        let count = parseInt(textNode.textContent.trim());
+
+        // Tìm like button để reset nếu đang active
+        const likeBtn = element.parentElement.querySelector('span:nth-child(1)');
+        const likeIcon = likeBtn.querySelector('i');
+        const likeTextNode = likeBtn.childNodes[likeBtn.childNodes.length - 1];
+        let likeCount = parseInt(likeTextNode.textContent.trim());
+
+        // Reset like nếu đang active
+        if (likeIcon.classList.contains('fas')) {
+            likeIcon.classList.remove('fas');
+            likeIcon.classList.add('far');
+            likeTextNode.textContent = ' ' + (likeCount - 1);
+            likeBtn.style.color = '';
+        }
+
+        // Toggle dislike
+        if (icon.classList.contains('far')) {
+            icon.classList.remove('far');
+            icon.classList.add('fas');
+            textNode.textContent = ' ' + (count + 1);
+            element.style.color = '#dc3545';
+        } else {
+            icon.classList.remove('fas');
+            icon.classList.add('far');
+            textNode.textContent = ' ' + (count - 1);
+            element.style.color = '';
+        }
+    }
+
+    // Khởi tạo khi trang được tải
+    document.addEventListener('DOMContentLoaded', function() {
+        if (allReviews && allReviews.length > 0) {
+            displayReviews(currentPage);
+            createPagination();
+        } else {
+            document.getElementById('reviewsContainer').innerHTML = '<div class="no-reviews">Chưa có đánh giá nào.</div>';
+        }
+    });
+</script>
 <script>
     function toggleTOC() {
            const toc = document.getElementById('tocMenu');
