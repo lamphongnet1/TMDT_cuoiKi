@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3r5xeMMcKoh3f4Wrpkh/Ea7TSh8vU1b5Yno8ivYoQAI=",
+  "Hash": "mmbymGQ8mZKA6LBLjeO848n/bsKQ9FxxNa8PljQWTz4=",
   "Source": "TMDT_cuoiKi",
   "BasePath": "_content/TMDT_cuoiKi",
   "Mode": "Default",
@@ -5498,6 +5498,27 @@
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-kiemTra.css"
     },
     {
+      "Identity": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-lichSu.css",
+      "SourceId": "TMDT_cuoiKi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\",
+      "BasePath": "_content/TMDT_cuoiKi",
+      "RelativePath": "style-phong/Style-lichSu#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8nfaunrbxn",
+      "Integrity": "TIhCt1zpQYKk7JHuP+MQB97+iJYVG5bCiB1VlSlYS8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style-phong\\Style-lichSu.css"
+    },
+    {
       "Identity": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-thanhToan.css",
       "SourceId": "TMDT_cuoiKi",
       "SourceType": "Discovered",
@@ -5512,8 +5533,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bp8hz8o5zh",
-      "Integrity": "TylKL/tWpnt6w2nt+f19OhBDcxdUNaMpfdsbJxGvSus=",
+      "Fingerprint": "rb6wjeu6er",
+      "Integrity": "BzP2V26T3DVLvGb2BF9g69fBQuft0dTcl8SpzxfVuhI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-thanhToan.css"
@@ -26944,8 +26965,8 @@
       ]
     },
     {
-      "Route": "style-phong/Style-thanhToan.bp8hz8o5zh.css",
-      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-thanhToan.css",
+      "Route": "style-phong/Style-lichSu.8nfaunrbxn.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-lichSu.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -26954,7 +26975,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5458"
+          "Value": "2959"
         },
         {
           "Name": "Content-Type",
@@ -26962,11 +26983,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TylKL/tWpnt6w2nt+f19OhBDcxdUNaMpfdsbJxGvSus=\""
+          "Value": "\"TIhCt1zpQYKk7JHuP+MQB97+iJYVG5bCiB1VlSlYS8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 23 May 2025 14:35:50 GMT"
+          "Value": "Fri, 23 May 2025 15:00:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26976,15 +26997,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bp8hz8o5zh"
+          "Value": "8nfaunrbxn"
         },
         {
           "Name": "label",
-          "Value": "style-phong/Style-thanhToan.css"
+          "Value": "style-phong/Style-lichSu.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TylKL/tWpnt6w2nt+f19OhBDcxdUNaMpfdsbJxGvSus="
+          "Value": "sha256-TIhCt1zpQYKk7JHuP+MQB97+iJYVG5bCiB1VlSlYS8A="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-lichSu.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-lichSu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TIhCt1zpQYKk7JHuP+MQB97+iJYVG5bCiB1VlSlYS8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:00:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TIhCt1zpQYKk7JHuP+MQB97+iJYVG5bCiB1VlSlYS8A="
         }
       ]
     },
@@ -26999,7 +27057,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5458"
+          "Value": "5591"
         },
         {
           "Name": "Content-Type",
@@ -27007,11 +27065,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TylKL/tWpnt6w2nt+f19OhBDcxdUNaMpfdsbJxGvSus=\""
+          "Value": "\"BzP2V26T3DVLvGb2BF9g69fBQuft0dTcl8SpzxfVuhI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 23 May 2025 14:35:50 GMT"
+          "Value": "Fri, 23 May 2025 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27021,7 +27079,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TylKL/tWpnt6w2nt+f19OhBDcxdUNaMpfdsbJxGvSus="
+          "Value": "sha256-BzP2V26T3DVLvGb2BF9g69fBQuft0dTcl8SpzxfVuhI="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-thanhToan.rb6wjeu6er.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-thanhToan.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BzP2V26T3DVLvGb2BF9g69fBQuft0dTcl8SpzxfVuhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 14:44:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rb6wjeu6er"
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-thanhToan.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BzP2V26T3DVLvGb2BF9g69fBQuft0dTcl8SpzxfVuhI="
         }
       ]
     },

@@ -2,7 +2,7 @@
 
 namespace TMDT_cuoiKi.Controllers
 {
-    public class ThanhToan2Controller : Controller
+    public class DonHangController : Controller
     {
         public IActionResult Index()
         {

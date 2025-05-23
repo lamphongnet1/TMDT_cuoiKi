@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/style-phong/Style-lichSu.css" />
+<!-- Main Content -->
+<main class="container main-content">
+    <div class="breadcrumb">
+        <a href="#">Home</a> >
+        <a href="#">Tài khoản</a> >
+        <a href="#" class="active">Đơn hàng</a>
+    </div>
+
+    <div class="content-wrapper">
+        <!-- Sidebar -->
+        <aside class="side-menu">
+            <div class="user-profile">
+                <img src="./Assets/img/hinh1.png" alt="Profile">
+                <span>Thinhdoan</span>
+            </div>
+            <nav>
+                <a href="#">
+                    <img src="./Assets/img/hinh2.png" alt="">
+                    Thông tin cá nhân
+                </a>
+                <a href="#">
+                    <img src="./Assets/img/hinh3.png" alt="">
+                    Thanh toán & Trả góp
+                </a>
+                <a href="#" class="active">
+                    <img src="./Assets/img/hinh4.png" alt="">
+                    Đơn hàng
+                </a>
+                <a href="#">
+                    <img src="./Assets/img/hinh5.png" alt="">
+                    Thông báo
+                </a>
+                <a href="#" class="logout">
+                    <img src="./Assets/img/hinh6.png" alt="">
+                    Đăng xuất
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Orders Section -->
+        <section class="orders-section">
+            <div class="order-tabs">
+                <a href="#" class="active">Tất cả <span>(3)</span></a>
+                <a href="#">Chờ xuyệt <span>(1)</span></a>
+                <a href="#">Đang giao <span>(0)</span></a>
+                <a href="#">Đã giao <span>(2)</span></a>
+                <a href="#">Đã hủy <span>(0)</span></a>
+                <a href="#">Hoàn trả <span>(0)</span></a>
+            </div>
+
+            <!-- Order Items -->
+            <div class="order-list">
+                <!-- Order 1 -->
+                <div class="order-item">
+                    <div class="order-header">
+                        <div class="order-date">Ngày đặt: 18/02/2025</div>
+                        <div class="order-status">Chờ duyệt</div>
+                    </div>
+                    <div class="order-product">
+                        <img src="./Assets/img/Product1.png" alt="Mắm tôm" class="product-image">
+                        <div class="product-info">
+                            <div class="product-title">Mắm tôm chùa Dì Cẩn</div>
+                            <div class="product-meta">Mã đơn hàng: #HD12345</div>
+                        </div>
+                        <div class="order-total">115,000đ</div>
+                    </div>
+                </div>
+
+                <!-- Order 2 -->
+                <div class="order-item">
+                    <div class="order-header">
+                        <div class="order-date">Ngày đặt: 20/02/2025</div>
+                        <div class="order-status">Đã giao</div>
+                    </div>
+                    <div class="order-product">
+                        <img src="./Assets/img/Product2.png" alt="Rượu" class="product-image">
+                        <div class="product-info">
+                            <div class="product-title">RƯỢU NHẤT ĐA ĐẾ VƯƠNG (VÀNG)</div>
+                            <div class="product-meta">Mã đơn hàng: #HD12346</div>
+                        </div>
+                        <div class="order-total">11,017,685đ</div>
+                    </div>
+                    <div class="order-actions">
+                        <button class="btn-primary">Mua lại lần nữa</button>
+                        <button class="btn-secondary">Đánh giá</button>
+                    </div>
+                </div>
+
+                <!-- Order 3 -->
+                <div class="order-item">
+                    <div class="order-header">
+                        <div class="order-date">Ngày đặt: 04/01/2025</div>
+                        <div class="order-status">Đã giao</div>
+                    </div>
+                    <div class="order-product">
+                        <img src="./Assets/img/Product3.png" alt="Bánh gừng" class="product-image">
+                        <div class="product-info">
+                            <div class="product-title">Bánh gừng Nguyễn Triều - Hộp ăn dương</div>
+                            <div class="product-meta">Mã đơn hàng: #HD12323</div>
+                        </div>
+                        <div class="order-total">1,670,000đ</div>
+                    </div>
+                    <div class="order-actions">
+                        <button class="btn-primary">Mua lại lần nữa</button>
+                        <button class="btn-secondary">Đánh giá</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
