@@ -191,6 +191,7 @@ wwwroot\img\visa.png
 wwwroot\img\warranty.png
 wwwroot\js\dropdown_danhmuc.js
 wwwroot\js\quantity.js
+wwwroot\js\reviewModal.js
 wwwroot\js\site.js
 wwwroot\js\slider.js
 wwwroot\js\slider2.js

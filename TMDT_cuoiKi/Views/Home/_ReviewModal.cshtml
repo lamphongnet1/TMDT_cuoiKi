@@ -1,0 +1,261 @@
+﻿<style>
+    .review-modal * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    .review-modal-wrapper {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+        .review-modal-wrapper.show {
+            opacity: 1;
+        }
+
+    .review-modal {
+        background-color: white;
+        width: 100%;
+        max-width: 550px;
+        min-height: 650px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        transform: translateY(50px);
+        transition: transform 0.3s ease;
+    }
+
+    .review-modal-wrapper.show .review-modal {
+        transform: translateY(0);
+    }
+
+    .review-modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 24px;
+        border-bottom: 1px solid #eee;
+        background-color: #f8f9fa;
+    }
+
+        .review-modal-header h2 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+    .review-close-btn {
+        background: none;
+        border: none;
+        font-size: 28px;
+        cursor: pointer;
+        color: #777;
+        padding: 8px;
+        border-radius: 6px;
+        transition: all 0.2s;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .review-close-btn:hover {
+            background-color: #f0f0f0;
+            color: #333;
+            transform: scale(1.1);
+        }
+
+    .review-modal-content {
+        padding: 30px 24px;
+    }
+
+    .review-product-title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+        line-height: 1.4;
+    }
+
+    .review-product-image {
+        display: block;
+        width: 180px;
+        height: auto;
+        margin: 0 auto 30px;
+        border-radius: 8px;
+    }
+
+    .review-rating-section h3 {
+        font-size: 17px;
+        margin-bottom: 20px;
+        color: #333;
+        font-weight: 600;
+    }
+
+    .review-stars-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding: 0 10px;
+    }
+
+    .review-star-option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18%;
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+
+        .review-star-option:hover {
+            transform: scale(1.1);
+        }
+
+    .review-star {
+        color: #FFD700;
+        font-size: 42px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        filter: drop-shadow(0 2px 4px rgba(255, 215, 0, 0.3));
+        font-family: 'Times New Roman', serif;
+    }
+
+        .review-star:hover {
+            transform: scale(1.2);
+            filter: drop-shadow(0 4px 8px rgba(255, 215, 0, 0.5));
+        }
+
+        .review-star.selected {
+            color: #FFD700;
+            filter: drop-shadow(0 3px 6px rgba(255, 215, 0, 0.6));
+            transform: scale(1.1);
+        }
+
+    .review-star-label {
+        font-size: 13px;
+        text-align: center;
+        color: #666;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .review-text-area {
+        width: 100%;
+        height: 130px;
+        padding: 15px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        resize: none;
+        margin-bottom: 30px;
+        font-size: 15px;
+        line-height: 1.5;
+        transition: border-color 0.2s;
+    }
+
+        .review-text-area:focus {
+            outline: none;
+            border-color: #f00;
+            box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.1);
+        }
+
+    .review-submit-btn {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        background: linear-gradient(135deg, #f00 0%, #d00 100%);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.2s;
+        box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+    }
+
+        .review-submit-btn:hover {
+            background: linear-gradient(135deg, #e00 0%, #c00 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(255, 0, 0, 0.4);
+        }
+
+        .review-submit-btn:active {
+            transform: translateY(0);
+        }
+</style>
+@using TMDT_cuoiKi.Data  <!-- thay bằng namespace chứa ShopHueDaQuaContext -->
+@{
+    var db = new ShopHueDaQuaContext();
+    string id = ViewBag.Id as string;
+
+    // Lấy sản phẩm theo ID
+    var sanPham = db.SanPhams.FirstOrDefault(sp => sp.IdsanPham == id);
+
+    // Lấy toàn bộ hình ảnh của sản phẩm
+    var danhSachAnh = db.HinhAnhSanPhams
+        .Where(h => h.IdsanPham == id)
+        .OrderBy(h => h.IdhinhAnh)
+        .Select(h => h.HinhAnh)
+        .ToList();
+}
+<div class="review-modal-wrapper" id="review-modal-wrapper">
+    <div class="review-modal">
+        <div class="review-modal-header">
+            <h2>Đánh giá & nhận xét</h2>
+            <button class="review-close-btn">×</button>
+        </div>
+        <div class="review-modal-content">
+            <p class="review-product-title">@sanPham.TenSanPham</p>
+            <img src="@(danhSachAnh.FirstOrDefault() ?? "images/default-product.jpg")" alt="Rượu Nhật Da Đê Vương" class="review-product-image">
+
+            <div class="review-rating-section">
+                <h3>Đánh giá chung</h3>
+                <div class="review-stars-container">
+                    <div class="review-star-option" data-rating="1">
+                        <div class="review-star">★</div>
+                        <span class="review-star-label">Rất tệ</span>
+                    </div>
+                    <div class="review-star-option" data-rating="2">
+                        <div class="review-star">★</div>
+                        <span class="review-star-label">Tệ</span>
+                    </div>
+                    <div class="review-star-option" data-rating="3">
+                        <div class="review-star">★</div>
+                        <span class="review-star-label">Bình thường</span>
+                    </div>
+                    <div class="review-star-option" data-rating="4">
+                        <div class="review-star">★</div>
+                        <span class="review-star-label">Tốt</span>
+                    </div>
+                    <div class="review-star-option" data-rating="5">
+                        <div class="review-star">★</div>
+                        <span class="review-star-label">Tuyệt vời</span>
+                    </div>
+                </div>
+            </div>
+
+            <textarea class="review-text-area" placeholder="Chia sẻ suy nghĩ của bạn về sản phẩm này tại đây..."></textarea>
+
+            <button class="review-submit-btn">Gửi đánh giá</button>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/reviewModal.js"></script>

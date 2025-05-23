@@ -296,7 +296,10 @@
                     </div>
                 </div>
                 <h4>Bạn đánh giá sao về sản phẩm này?</h4>
-                <div class="buy-button">Đánh giá ngay</div>
+                <div class="buy-button" id="buy-button">
+                    Đánh giá ngay
+                </div>
+
             </div>
             <div class="review-section">
                 <div class="reviews">
@@ -355,6 +358,8 @@
 </div>
 <script src="~/js/quantity.js"></script>
 <script src="~/js/zoom-img.js"></script>
+@Html.Partial("_ReviewModal")
+
 <script>
     function toggleTOC() {
            const toc = document.getElementById('tocMenu');

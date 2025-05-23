@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+JpyOAtCHYzRgSfKLlXFI+cJjtKVDdoRv0iSyBTKG9k=",
+  "Hash": "rAbr+hGh/ZW7wZbos7EEj6smBGN+tinetK/fezAjpEg=",
   "Source": "TMDT_cuoiKi",
   "BasePath": "_content/TMDT_cuoiKi",
   "Mode": "Default",
@@ -4068,6 +4068,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\quantity.js"
+    },
+    {
+      "Identity": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\reviewModal.js",
+      "SourceId": "TMDT_cuoiKi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\",
+      "BasePath": "_content/TMDT_cuoiKi",
+      "RelativePath": "js/reviewModal#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4h6mpqtcu5",
+      "Integrity": "uAQ5BrzTTVXE1NY5kZRNPvCd/jIoURurMxUUpPhkdvA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\reviewModal.js"
     },
     {
       "Identity": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\site.js",
@@ -21301,6 +21322,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-MBSZzja6hSbBOd76D/rQq+GI4ZEk/CulkygMY1MnaOg="
+        }
+      ]
+    },
+    {
+      "Route": "js/reviewModal.4h6mpqtcu5.js",
+      "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\reviewModal.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uAQ5BrzTTVXE1NY5kZRNPvCd/jIoURurMxUUpPhkdvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 12:50:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4h6mpqtcu5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/reviewModal.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uAQ5BrzTTVXE1NY5kZRNPvCd/jIoURurMxUUpPhkdvA="
+        }
+      ]
+    },
+    {
+      "Route": "js/reviewModal.js",
+      "AssetFile": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\reviewModal.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uAQ5BrzTTVXE1NY5kZRNPvCd/jIoURurMxUUpPhkdvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 12:50:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uAQ5BrzTTVXE1NY5kZRNPvCd/jIoURurMxUUpPhkdvA="
         }
       ]
     },

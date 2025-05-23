@@ -773,6 +773,10 @@
       "PackagePath": "staticwebassets\\js\\quantity.js"
     },
     {
+      "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\reviewModal.js",
+      "PackagePath": "staticwebassets\\js\\reviewModal.js"
+    },
+    {
       "Id": "D:\\Workspace VStudio\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
