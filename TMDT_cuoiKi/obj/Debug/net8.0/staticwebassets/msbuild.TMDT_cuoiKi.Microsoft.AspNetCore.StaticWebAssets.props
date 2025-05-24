@@ -4674,8 +4674,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r0xoeqm092</Fingerprint>
-      <Integrity>K5NJJJKUM1QWgGqf8J0vNIOt54jg3Z7GbWHigqOjrVE=</Integrity>
+      <Fingerprint>3gwj0k4zti</Fingerprint>
+      <Integrity>/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-blog.css'))</OriginalItemSpec>
@@ -4692,8 +4692,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>38ec94xwqj</Fingerprint>
-      <Integrity>AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM=</Integrity>
+      <Fingerprint>q2e9hs1i1n</Fingerprint>
+      <Integrity>fh+vAVRuRXuZYqy/eB9bVYXyOBrRJHL2gPV5TvUmlRY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-chiTietDonHang.css'))</OriginalItemSpec>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GWndjVatOnusUuQ6JlhjhjJkW36VBXm17rbjMKGxmwk=",
+  "Hash": "W3VXFPda7i61+dL7b05PM0pWKrKlacAh4ioyJhZWwRM=",
   "Source": "TMDT_cuoiKi",
   "BasePath": "_content/TMDT_cuoiKi",
   "Mode": "Default",
@@ -5470,8 +5470,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r0xoeqm092",
-      "Integrity": "K5NJJJKUM1QWgGqf8J0vNIOt54jg3Z7GbWHigqOjrVE=",
+      "Fingerprint": "3gwj0k4zti",
+      "Integrity": "/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-blog.css"
@@ -5491,8 +5491,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "38ec94xwqj",
-      "Integrity": "AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM=",
+      "Fingerprint": "q2e9hs1i1n",
+      "Integrity": "fh+vAVRuRXuZYqy/eB9bVYXyOBrRJHL2gPV5TvUmlRY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-chiTietDonHang.css"
@@ -26885,6 +26885,51 @@
       ]
     },
     {
+      "Route": "style-phong/Style-blog.3gwj0k4zti.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-blog.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 15:00:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3gwj0k4zti"
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-blog.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y="
+        }
+      ]
+    },
+    {
       "Route": "style-phong/Style-blog.css",
       "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-blog.css",
       "Selectors": [],
@@ -26895,7 +26940,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2916"
+          "Value": "4321"
         },
         {
           "Name": "Content-Type",
@@ -26903,11 +26948,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K5NJJJKUM1QWgGqf8J0vNIOt54jg3Z7GbWHigqOjrVE=\""
+          "Value": "\"/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 06:35:23 GMT"
+          "Value": "Sat, 24 May 2025 15:00:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26917,97 +26962,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K5NJJJKUM1QWgGqf8J0vNIOt54jg3Z7GbWHigqOjrVE="
-        }
-      ]
-    },
-    {
-      "Route": "style-phong/Style-blog.r0xoeqm092.css",
-      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-blog.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2916"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K5NJJJKUM1QWgGqf8J0vNIOt54jg3Z7GbWHigqOjrVE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 06:35:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r0xoeqm092"
-        },
-        {
-          "Name": "label",
-          "Value": "style-phong/Style-blog.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-K5NJJJKUM1QWgGqf8J0vNIOt54jg3Z7GbWHigqOjrVE="
-        }
-      ]
-    },
-    {
-      "Route": "style-phong/Style-chiTietDonHang.38ec94xwqj.css",
-      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8707"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 13:59:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "38ec94xwqj"
-        },
-        {
-          "Name": "label",
-          "Value": "style-phong/Style-chiTietDonHang.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM="
+          "Value": "sha256-/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y="
         }
       ]
     },
@@ -27022,7 +26977,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8707"
+          "Value": "8487"
         },
         {
           "Name": "Content-Type",
@@ -27030,11 +26985,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM=\""
+          "Value": "\"fh+vAVRuRXuZYqy/eB9bVYXyOBrRJHL2gPV5TvUmlRY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 13:59:41 GMT"
+          "Value": "Sat, 24 May 2025 14:09:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27044,7 +26999,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM="
+          "Value": "sha256-fh+vAVRuRXuZYqy/eB9bVYXyOBrRJHL2gPV5TvUmlRY="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-chiTietDonHang.q2e9hs1i1n.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fh+vAVRuRXuZYqy/eB9bVYXyOBrRJHL2gPV5TvUmlRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 14:09:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q2e9hs1i1n"
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-chiTietDonHang.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fh+vAVRuRXuZYqy/eB9bVYXyOBrRJHL2gPV5TvUmlRY="
         }
       ]
     },
