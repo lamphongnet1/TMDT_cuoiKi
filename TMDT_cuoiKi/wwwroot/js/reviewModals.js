@@ -64,8 +64,9 @@
 
     // Submit button functionality
     const submitBtn = document.querySelector('.review-submit-btn');
+
     if (submitBtn) {
-        submitBtn.addEventListener('click', () => {
+        submitBtn.addEventListener('click', async () => {
             const selectedRating = document.querySelectorAll('.review-star[style*="color: rgb(255, 215, 0)"]').length;
             const reviewTextArea = document.querySelector('.review-text-area');
             const reviewText = reviewTextArea ? reviewTextArea.value.trim() : '';
@@ -75,7 +76,39 @@
                 return;
             }
 
-            alert(`Đã gửi đánh giá: ${selectedRating} sao.\nNội dung: ${reviewText || '(không có nội dung)'}`);
+            const productId = window.productId || document.getElementById('review-modal-wrapper')?.dataset?.productid;
+
+            if (!productId) {
+                alert('Không xác định được sản phẩm cần đánh giá');
+                return;
+            }
+
+            try {
+                const response = await fetch('/Home/SubmitDanhGia', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: new URLSearchParams({
+                        idSanPham: productId,
+                        soSao: selectedRating,
+                        noiDung: reviewText
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    alert('Gửi đánh giá thành công!');
+                    location.reload();
+                } else {
+                    alert('Gửi đánh giá thất bại: ' + result.message);
+                }
+            } catch (error) {
+                console.error('Lỗi gửi đánh giá:', error);
+                alert('Đã xảy ra lỗi khi gửi đánh giá.');
+            }
         });
     }
+
 });

@@ -24,6 +24,8 @@
     var db = new ShopHueDaQuaContext();
     var reviews = ViewBag.Reviews;
     string id = ViewBag.Id as string;
+    var rating = ViewBag.RatingSummary;
+    var percentages = (IDictionary<int, double>)rating.percentages;
 
     // Lấy sản phẩm theo ID
     var sanPham = db.SanPhams.FirstOrDefault(sp => sp.IdsanPham == id);
@@ -257,43 +259,18 @@
         <div class="review-container">
             <div class="reviews">
                 <div class="reviews-summary">
-                    <div class="average-rating">4.5</div>
+                    <div class="average-rating">@rating.averageRating</div>
                     <div class="rating-bars">
-                        <div class="rating-bar">
-                            <div class="rating-label">5★</div>
-                            <div class="rating-progress">
-                                <div class="rating-progress-fill" style="width: 66%;"></div>
+                        @for (int star = 5; star >= 1; star--)
+                        {
+                            <div class="rating-bar">
+                                <div class="rating-label">@star★</div>
+                                <div class="rating-progress">
+                                    <div class="rating-progress-fill" style="width: @percentages[star]%"></div>
+                                </div>
+                                <div class="rating-percent">@percentages[star]%</div>
                             </div>
-                            <div class="rating-percent">66%</div>
-                        </div>
-                        <div class="rating-bar">
-                            <div class="rating-label">4★</div>
-                            <div class="rating-progress">
-                                <div class="rating-progress-fill" style="width: 33%;"></div>
-                            </div>
-                            <div class="rating-percent">33%</div>
-                        </div>
-                        <div class="rating-bar">
-                            <div class="rating-label">3★</div>
-                            <div class="rating-progress">
-                                <div class="rating-progress-fill" style="width: 0%;"></div>
-                            </div>
-                            <div class="rating-percent">0%</div>
-                        </div>
-                        <div class="rating-bar">
-                            <div class="rating-label">2★</div>
-                            <div class="rating-progress">
-                                <div class="rating-progress-fill" style="width: 0%;"></div>
-                            </div>
-                            <div class="rating-percent">0%</div>
-                        </div>
-                        <div class="rating-bar">
-                            <div class="rating-label">1★</div>
-                            <div class="rating-progress">
-                                <div class="rating-progress-fill" style="width: 0%;"></div>
-                            </div>
-                            <div class="rating-percent">0%</div>
-                        </div>
+                        }
                     </div>
                 </div>
                 <h4>Bạn đánh giá sao về sản phẩm này?</h4>

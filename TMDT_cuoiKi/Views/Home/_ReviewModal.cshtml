@@ -215,7 +215,7 @@
         .Select(h => h.HinhAnh)
         .ToList();
 }
-<div class="review-modal-wrapper" id="review-modal-wrapper">
+<div class="review-modal-wrapper" id="review-modal-wrapper" data-productid="@ViewBag.Id">
     <div class="review-modal">
         <div class="review-modal-header">
             <h2>Đánh giá & nhận xét</h2>
@@ -258,4 +258,4 @@
     </div>
 </div>
 
-<script src="~/js/reviewModal.js"></script>
+<script src="~/js/reviewModals.js"></script>
