@@ -2880,6 +2880,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\high_quality.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\image 194.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TMDT_cuoiKi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TMDT_cuoiKi</BasePath>
+      <RelativePath>img/image 194.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e9pfcwmbq4</Fingerprint>
+      <Integrity>XqYKbo0BJDfNh+7vhanXuAqc6ekb7qwA6+8FT92Uffo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\image 194.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\image 195.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TMDT_cuoiKi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TMDT_cuoiKi</BasePath>
+      <RelativePath>img/image 195.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>erxq1iyy0e</Fingerprint>
+      <Integrity>lgnHCr2W/Wv571vPQ900GpioABINbLKoSI0zGgow5Xg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\image 195.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\instagram.png'))">
       <SourceType>Package</SourceType>
       <SourceId>TMDT_cuoiKi</SourceId>
@@ -3401,6 +3437,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\truck.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tttructiep.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TMDT_cuoiKi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TMDT_cuoiKi</BasePath>
+      <RelativePath>img/tttructiep.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0syfdas4m8</Fingerprint>
+      <Integrity>0LI3UlrM2E8WFZQdQFW+no4dyUyS4OWB7ueTbH0Urkg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tttructiep.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\twitter.png'))">
       <SourceType>Package</SourceType>
@@ -4746,8 +4800,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rb6wjeu6er</Fingerprint>
-      <Integrity>BzP2V26T3DVLvGb2BF9g69fBQuft0dTcl8SpzxfVuhI=</Integrity>
+      <Fingerprint>vxzghsl2vq</Fingerprint>
+      <Integrity>84r5fVcGsTVRPqNDyucpCaJUXaoq8sV8/ilHXRJwL8I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-thanhToan.css'))</OriginalItemSpec>
@@ -4764,8 +4818,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zanxgysluh</Fingerprint>
-      <Integrity>O8zeT/YcKSEFmkuHpmLB6fvFOG8n8GCRNdd1x2IcPLg=</Integrity>
+      <Fingerprint>90ared2up6</Fingerprint>
+      <Integrity>l9IQKTLWAWTrSUaexQemOesgZH6LMo2rOacZ8nz0EHg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-xemchitiet.css'))</OriginalItemSpec>

@@ -158,6 +158,8 @@ wwwroot\img\favicon.png
 wwwroot\img\giavi_categories.png
 wwwroot\img\google.png
 wwwroot\img\high_quality.png
+wwwroot\img\image 194.png
+wwwroot\img\image 195.png
 wwwroot\img\instagram.png
 wwwroot\img\keomut_categories.png
 wwwroot\img\key.png
@@ -187,6 +189,7 @@ wwwroot\img\tintuc_2.jpg
 wwwroot\img\tintuc_3.jpg
 wwwroot\img\transport.png
 wwwroot\img\truck.png
+wwwroot\img\tttructiep.png
 wwwroot\img\twitter.png
 wwwroot\img\visa.png
 wwwroot\img\warranty.png

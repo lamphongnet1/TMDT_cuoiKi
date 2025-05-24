@@ -12,5 +12,13 @@ namespace TMDT_cuoiKi.Controllers
         {
             return View();
         }
+        public IActionResult ThanhToanTrucTiep()
+        {
+            return View();
+        }
+        public IActionResult ThanhToanChuyenKhoan()
+        {
+            return View();
+        }
     }
 }
