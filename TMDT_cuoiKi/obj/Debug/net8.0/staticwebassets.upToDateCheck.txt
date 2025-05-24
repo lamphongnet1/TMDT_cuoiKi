@@ -262,6 +262,7 @@ wwwroot\style-phong\Style-chiTietDonHang.css
 wwwroot\style-phong\Style-footer.css
 wwwroot\style-phong\Style-gioHang.css
 wwwroot\style-phong\Style-header.css
+wwwroot\style-phong\Style-hue.css
 wwwroot\style-phong\Style-kiemTra.css
 wwwroot\style-phong\Style-lichSu.css
 wwwroot\style-phong\Style-thanhToan.css

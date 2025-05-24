@@ -1057,6 +1057,10 @@
       "PackagePath": "staticwebassets\\style-phong\\Style-header.css"
     },
     {
+      "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-hue.css",
+      "PackagePath": "staticwebassets\\style-phong\\Style-hue.css"
+    },
+    {
       "Id": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-kiemTra.css",
       "PackagePath": "staticwebassets\\style-phong\\Style-kiemTra.css"
     },

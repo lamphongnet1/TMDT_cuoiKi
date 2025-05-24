@@ -4674,8 +4674,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3gwj0k4zti</Fingerprint>
-      <Integrity>/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y=</Integrity>
+      <Fingerprint>rfpypptalm</Fingerprint>
+      <Integrity>R8JDl5W9FcsI36mUgly1dLsIWIfLaoFXmQPp5UiJejY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-blog.css'))</OriginalItemSpec>
@@ -4751,6 +4751,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-header.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-hue.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TMDT_cuoiKi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TMDT_cuoiKi</BasePath>
+      <RelativePath>style-phong/Style-hue.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c0stonail8</Fingerprint>
+      <Integrity>9NiCzCrSY+2k6/3nDH0m43NOQqWhMoAz1CWKm4DlqTY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-hue.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-kiemTra.css'))">
       <SourceType>Package</SourceType>

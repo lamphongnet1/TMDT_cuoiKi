@@ -8,5 +8,17 @@ namespace TMDT_cuoiKi.Controllers
         {
             return View();
         }
+        public IActionResult Hue()
+        {
+            return View();
+        }
+        public IActionResult DaNang()
+        {
+            return View();
+        }
+        public IActionResult QuangNam()
+        {
+            return View();
+        }
     }
 }

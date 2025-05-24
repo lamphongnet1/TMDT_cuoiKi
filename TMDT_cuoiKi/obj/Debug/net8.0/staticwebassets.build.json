@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W3VXFPda7i61+dL7b05PM0pWKrKlacAh4ioyJhZWwRM=",
+  "Hash": "SReqy6m1XwRtPdvWxsyINbB+3AsbA5IxOetyqXJGjbQ=",
   "Source": "TMDT_cuoiKi",
   "BasePath": "_content/TMDT_cuoiKi",
   "Mode": "Default",
@@ -5470,8 +5470,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3gwj0k4zti",
-      "Integrity": "/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y=",
+      "Fingerprint": "rfpypptalm",
+      "Integrity": "R8JDl5W9FcsI36mUgly1dLsIWIfLaoFXmQPp5UiJejY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-blog.css"
@@ -5559,6 +5559,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-header.css"
+    },
+    {
+      "Identity": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-hue.css",
+      "SourceId": "TMDT_cuoiKi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\",
+      "BasePath": "_content/TMDT_cuoiKi",
+      "RelativePath": "style-phong/Style-hue#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c0stonail8",
+      "Integrity": "9NiCzCrSY+2k6/3nDH0m43NOQqWhMoAz1CWKm4DlqTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style-phong\\Style-hue.css"
     },
     {
       "Identity": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-kiemTra.css",
@@ -26885,51 +26906,6 @@
       ]
     },
     {
-      "Route": "style-phong/Style-blog.3gwj0k4zti.css",
-      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-blog.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4321"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 15:00:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3gwj0k4zti"
-        },
-        {
-          "Name": "label",
-          "Value": "style-phong/Style-blog.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y="
-        }
-      ]
-    },
-    {
       "Route": "style-phong/Style-blog.css",
       "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-blog.css",
       "Selectors": [],
@@ -26940,7 +26916,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4321"
+          "Value": "2941"
         },
         {
           "Name": "Content-Type",
@@ -26948,11 +26924,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y=\""
+          "Value": "\"R8JDl5W9FcsI36mUgly1dLsIWIfLaoFXmQPp5UiJejY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 15:00:55 GMT"
+          "Value": "Sat, 24 May 2025 16:10:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26962,7 +26938,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/QQ5veHNv1Tapo7n+uw9mZBIA/QCLNF+SnEebTwR44Y="
+          "Value": "sha256-R8JDl5W9FcsI36mUgly1dLsIWIfLaoFXmQPp5UiJejY="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-blog.rfpypptalm.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-blog.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8JDl5W9FcsI36mUgly1dLsIWIfLaoFXmQPp5UiJejY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 16:10:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rfpypptalm"
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-blog.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8JDl5W9FcsI36mUgly1dLsIWIfLaoFXmQPp5UiJejY="
         }
       ]
     },
@@ -27291,6 +27312,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-JLtxpxpCIfKIYhXGfotPqPdCO40jzaoAZxIX3jM+ZxQ="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-hue.c0stonail8.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-hue.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9NiCzCrSY+2k6/3nDH0m43NOQqWhMoAz1CWKm4DlqTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 16:08:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c0stonail8"
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-hue.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9NiCzCrSY+2k6/3nDH0m43NOQqWhMoAz1CWKm4DlqTY="
+        }
+      ]
+    },
+    {
+      "Route": "style-phong/Style-hue.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-hue.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9NiCzCrSY+2k6/3nDH0m43NOQqWhMoAz1CWKm4DlqTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 16:08:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9NiCzCrSY+2k6/3nDH0m43NOQqWhMoAz1CWKm4DlqTY="
         }
       ]
     },
