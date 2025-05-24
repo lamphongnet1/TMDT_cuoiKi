@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pfGPJKC5xhPH7l3o3Rn3liXHW2y7z0lBH9q6Lurcb/E=",
+  "Hash": "GWndjVatOnusUuQ6JlhjhjJkW36VBXm17rbjMKGxmwk=",
   "Source": "TMDT_cuoiKi",
   "BasePath": "_content/TMDT_cuoiKi",
   "Mode": "Default",
@@ -5491,8 +5491,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e1ijmaoskl",
-      "Integrity": "EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=",
+      "Fingerprint": "38ec94xwqj",
+      "Integrity": "AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style-phong\\Style-chiTietDonHang.css"
@@ -26967,6 +26967,51 @@
       ]
     },
     {
+      "Route": "style-phong/Style-chiTietDonHang.38ec94xwqj.css",
+      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 13:59:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38ec94xwqj"
+        },
+        {
+          "Name": "label",
+          "Value": "style-phong/Style-chiTietDonHang.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM="
+        }
+      ]
+    },
+    {
       "Route": "style-phong/Style-chiTietDonHang.css",
       "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
       "Selectors": [],
@@ -26977,7 +27022,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6019"
+          "Value": "8707"
         },
         {
           "Name": "Content-Type",
@@ -26985,11 +27030,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=\""
+          "Value": "\"AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 23 May 2025 15:32:21 GMT"
+          "Value": "Sat, 24 May 2025 13:59:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26999,52 +27044,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw="
-        }
-      ]
-    },
-    {
-      "Route": "style-phong/Style-chiTietDonHang.e1ijmaoskl.css",
-      "AssetFile": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6019"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 23 May 2025 15:32:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e1ijmaoskl"
-        },
-        {
-          "Name": "label",
-          "Value": "style-phong/Style-chiTietDonHang.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw="
+          "Value": "sha256-AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM="
         }
       ]
     },

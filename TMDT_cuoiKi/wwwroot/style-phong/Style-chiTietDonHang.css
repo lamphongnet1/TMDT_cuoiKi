@@ -344,3 +344,137 @@
         max-width: 50%;
     }
 }
+.pr-progress-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: none;
+    border-radius: 10px;
+
+}
+
+.pr-progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pr-progress-line {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    right: 40px;
+    height: 3px;
+    background-color: #e0e0e0;
+    z-index: 1;
+}
+
+.pr-progress-line-active {
+    position: absolute;
+    top: 30px;
+    left: calc(70px + 25px);
+    height: 3px;
+    background-color: #1E90FF;
+    z-index: 1;
+    transition: width 0.5s ease;
+}
+
+.pr-progress-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    background: none;
+    padding: 0 15px;
+}
+
+.pr-step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+    .pr-step-icon i {
+        font-size: 30px;
+        color: white;
+    }
+
+.pr-step-text {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.pr-step-completed .pr-step-icon {
+    background-color: #5badff;
+    border: 2px solid #5badff;
+}
+
+    .pr-step-completed .pr-step-icon svg {
+        fill: white;
+    }
+
+.pr-step-completed .pr-step-text {
+    color: #e0e0e0;
+}
+
+.pr-step-active .pr-step-icon {
+    background-color: white;
+    border: 3px solid #1E90FF;
+    width: 70px;
+    height: 70px;
+    transform: scale(1.1);
+}
+
+    .pr-step-active .pr-step-icon i {
+        color: #1E90FF;
+        font-size: 35px;
+    }
+
+.pr-step-active .pr-step-text {
+    color: #1E90FF;
+    font-weight: 600;
+}
+
+.pr-step-inactive .pr-step-icon {
+    background-color: #ccc;
+    border: 2px solid #ccc;
+}
+
+    .pr-step-inactive .pr-step-icon svg {
+        fill: #999;
+    }
+
+.pr-step-inactive .pr-step-text {
+    color: #999;
+}
+
+.pr-demo-controls {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pr-demo-btn {
+    background: #1E90FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .pr-demo-btn:hover {
+        background: #1873CD;
+    }

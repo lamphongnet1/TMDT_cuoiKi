@@ -4692,8 +4692,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e1ijmaoskl</Fingerprint>
-      <Integrity>EqBcW5laxCxqhZZoGK380Dte/yms785S8x/YNLci7sw=</Integrity>
+      <Fingerprint>38ec94xwqj</Fingerprint>
+      <Integrity>AxyJm7PubbIXE8PTHMa9tTn4HXYV1Creov/3eGX51cM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style-phong\Style-chiTietDonHang.css'))</OriginalItemSpec>

@@ -3,6 +3,7 @@
     ViewData["Title"] = "ChiTiet";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="~/style-phong/Style-chiTietDonHang.css" />
 <div class="main-container">
     <!-- Sidebar -->
@@ -69,23 +70,38 @@
         <!-- Order Status -->
         <div class="order-status">
             <h2 class="status-title">Quá trình giao hàng</h2>
+            <div class="pr-progress-container">
+                <div class="pr-progress-bar">
+                    <div class="pr-progress-line"></div>
+                    <div class="pr-progress-line-active" id="progressLineActive"></div>
 
-            <div class="status-steps">
-                <div class="status-step completed">
-                    <div class="step-icon">✓</div>
-                    <div class="step-text">Đặt hàng thành công</div>
-                </div>
-                <div class="status-step active">
-                    <div class="step-icon">⟳</div>
-                    <div class="step-text">Chờ duyệt</div>
-                </div>
-                <div class="status-step">
-                    <div class="step-icon">📦</div>
-                    <div class="step-text">Đang giao hàng</div>
-                </div>
-                <div class="status-step">
-                    <div class="step-icon">✓</div>
-                    <div class="step-text">Đã nhận hàng</div>
+                    <div class="pr-progress-step pr-step-completed" data-step="0">
+                        <div class="pr-step-icon">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </div>
+                        <div class="pr-step-text">Đặt hàng thành công</div>
+                    </div>
+
+                    <div class="pr-progress-step pr-step-active" data-step="1">
+                        <div class="pr-step-icon">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="pr-step-text">Chờ duyệt</div>
+                    </div>
+
+                    <div class="pr-progress-step pr-step-inactive" data-step="2">
+                        <div class="pr-step-icon">
+                            <i class="fa fa-truck" aria-hidden="true"></i>
+                        </div>
+                        <div class="pr-step-text">Đang giao hàng</div>
+                    </div>
+
+                    <div class="pr-progress-step pr-step-inactive" data-step="3">
+                        <div class="pr-step-icon">
+                            <i class="fa fa-archive" aria-hidden="true"></i>
+                        </div>
+                        <div class="pr-step-text">Đã nhận hàng</div>
+                    </div>
                 </div>
             </div>
 
@@ -160,3 +176,37 @@
     </div>
 </div>
 
+<script>
+    function setStep(activeStep) {
+        const steps = document.querySelectorAll('.progress-step');
+        const progressLineActive = document.getElementById('progressLineActive');
+
+        const firstStep = steps[0].offsetLeft + steps[0].offsetWidth / 2;
+        const lastStep = steps[steps.length - 1].offsetLeft + steps[0].offsetWidth / 2;
+
+        const totalWidth = lastStep - firstStep;
+
+        const newWidth = (activeStep / (steps.length - 1)) * totalWidth;
+
+        if (activeStep === 0) {
+            progressLineActive.style.width = '0px';
+        } else {
+            progressLineActive.style.width = `${newWidth}px`;
+        }
+
+        steps.forEach((step, index) => {
+            step.classList.remove('step-completed', 'step-active', 'step-inactive');
+
+            if (index < activeStep) {
+                step.classList.add('step-completed');
+            } else if (index === activeStep) {
+                step.classList.add('step-active');
+            } else {
+                step.classList.add('step-inactive');
+            }
+        });
+    }
+
+    // Khởi tạo với bước 2 đang active (Chờ duyệt)
+    setStep(0);
+</script>

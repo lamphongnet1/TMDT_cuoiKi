@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\documents\\224-spkt\\ute_cotran_tmdt\\baocao\\tmdt_cuoiki\\tmdt_cuoiki\\views\\donhang\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\donhang\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\documents\\224-spkt\\ute_cotran_tmdt\\baocao\\tmdt_cuoiki\\tmdt_cuoiki\\wwwroot\\style-phong\\style-chitietdonhang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\wwwroot\\style-phong\\style-chitietdonhang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\documents\\224-spkt\\ute_cotran_tmdt\\baocao\\tmdt_cuoiki\\tmdt_cuoiki\\views\\thanhtoan\\thanhtoantructiep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\thanhtoan\\thanhtoantructiep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\documents\\224-spkt\\ute_cotran_tmdt\\baocao\\tmdt_cuoiki\\tmdt_cuoiki\\controllers\\thanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\controllers\\thanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\documents\\224-spkt\\ute_cotran_tmdt\\baocao\\tmdt_cuoiki\\tmdt_cuoiki\\views\\thanhtoan\\thanhtoanchuyenkhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\thanhtoan\\thanhtoanchuyenkhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|d:\\documents\\224-spkt\\ute_cotran_tmdt\\baocao\\tmdt_cuoiki\\tmdt_cuoiki\\views\\thanhtoan\\thanhtoan2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{829550C9-E70D-4301-BE11-36CC8F94715B}|TMDT_cuoiKi\\TMDT_cuoiKi.csproj|solutionrelative:tmdt_cuoiki\\views\\thanhtoan\\thanhtoan2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,53 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ThanhToanTrucTiep.cshtml",
-              "DocumentMoniker": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanTrucTiep.cshtml",
-              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanTrucTiep.cshtml",
-              "ToolTip": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanTrucTiep.cshtml",
-              "RelativeToolTip": "TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanTrucTiep.cshtml",
-              "ViewState": "AgIAALAAAAAAAAAAAAAQwMgAAAAAAAAAAAAAAA==",
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\DonHang\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\DonHang\\ChiTiet.cshtml",
+              "ToolTip": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\DonHang\\ChiTiet.cshtml",
+              "RelativeToolTip": "TMDT_cuoiKi\\Views\\DonHang\\ChiTiet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T10:32:12.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThanhToanChuyenKhoan.cshtml",
-              "DocumentMoniker": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanChuyenKhoan.cshtml",
-              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanChuyenKhoan.cshtml",
-              "ToolTip": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanChuyenKhoan.cshtml*",
-              "RelativeToolTip": "TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanChuyenKhoan.cshtml*",
-              "ViewState": "AgIAANIAAAAAAAAAAAAQwOoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T10:30:56.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ThanhToan2.cshtml",
-              "DocumentMoniker": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToan2.cshtml",
-              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToan2.cshtml",
-              "ToolTip": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToan2.cshtml",
-              "RelativeToolTip": "TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToan2.cshtml",
-              "ViewState": "AgIAALUAAAAAAAAAAAAQwM0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T10:30:20.377Z",
+              "WhenOpened": "2025-05-24T13:59:58.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ThanhToanController.cs",
-              "DocumentMoniker": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Controllers\\ThanhToanController.cs",
-              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Controllers\\ThanhToanController.cs",
-              "ToolTip": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Controllers\\ThanhToanController.cs",
-              "RelativeToolTip": "TMDT_cuoiKi\\Controllers\\ThanhToanController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T10:29:29.416Z",
+              "Title": "Style-chiTietDonHang.css",
+              "DocumentMoniker": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+              "ToolTip": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+              "RelativeToolTip": "TMDT_cuoiKi\\wwwroot\\style-phong\\Style-chiTietDonHang.css",
+              "ViewState": "AgIAAMwBAAAAAAAAAAAYwOYBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-24T13:59:35.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThanhToanTrucTiep.cshtml",
+              "DocumentMoniker": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanTrucTiep.cshtml",
+              "RelativeDocumentMoniker": "TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanTrucTiep.cshtml",
+              "ToolTip": "D:\\Documents\\224-SPKT\\UTE_coTRAN_TMDT\\baocao\\TMDT_cuoiKi\\TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanTrucTiep.cshtml",
+              "RelativeToolTip": "TMDT_cuoiKi\\Views\\ThanhToan\\ThanhToanTrucTiep.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAQwHQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T10:32:12.706Z",
               "EditorCaption": ""
             }
           ]
